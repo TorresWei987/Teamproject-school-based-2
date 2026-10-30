@@ -1,0 +1,5 @@
+[build]
+  base = "."
+  # The finished handbook is committed in dist. Vite builds a separate UI preview.
+  command = "node scripts/check-search.mjs"
+  publish = "dist"
