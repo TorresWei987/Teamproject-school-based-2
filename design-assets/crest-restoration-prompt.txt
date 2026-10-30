@@ -1,0 +1,13 @@
+Tool: built-in image_gen
+Reference: user-supplied Oaks Christian School crest
+Research: https://trademarks.justia.com/856/13/erudita-prudentia-insignis-athletica-claritas-artium-est-oaks-christian-school-85613693.html
+Research: https://www.oakschristian.org/uploaded/Admissions/OCS_Release_of_Transcript_for_CollegeNET_2018-2019.pdf?1547576391449=
+Output: public/oaks-christian-crest-hd.png
+This is an AI-restored recreation.
+
+Use case: background-extraction / faithful logo restoration.
+Asset type: high-definition transparent PNG school crest for a student handbook website.
+Input image 1 is the EDIT TARGET and authoritative composition/color reference: the Oaks Christian School crest. Restore THIS crest rather than redesign it. Reconstruct blurred contours and fine details as crisp, clean heraldic graphic artwork at high resolution, ideally 2048 x 2048 or greater, with smooth antialiased edges. Maintain the original proportions, deep burgundy shield, antique champagne gold/beige cross and heraldic symbols, two gold leafy fronds flanking the shield, parchment/ivory border bands and folded ribbon, dark fine lettering, crossed stems below.
+The shield has exactly four quadrants divided by one broad gold cross: upper left two oak leaves and an acorn; upper right one open book; lower left two crossed old-fashioned keys; lower right one rampant heraldic lion facing left. Preserve the positions and recognizable original silhouette.
+Research-confirmed exact inscription around shield: "ERUDITA PRUDENTIA" on the arched top band; "CLARITAS ARTIUM" on the left side band; "INSIGNIS ATHLETICA" on the right side band. The folded ribbon below reads "EST." at left, "OAKS CHRISTIAN SCHOOL" in the center, and "2000" at right. Render this lettering legibly and accurately in narrow classic engraved serif capitals following the bands. Do not add other letters or slogans.
+Genuinely transparent alpha background: remove the white canvas outside the crest, and preserve transparent negative spaces between the surrounding leaves and below the ribbon. The cream border bands, ribbon and gold crest details are part of the emblem and must stay opaque. No white rectangle, no white backdrop, no checkerboard drawn into the image, no scene, no drop shadow, no mockup, no additional decoration. One centered full crest with a small clean transparent margin; no clipping. Faithful polished flat emblem with restrained original gold shading, not 3D, not photographic.
