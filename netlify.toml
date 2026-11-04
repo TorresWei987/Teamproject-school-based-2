@@ -1,9 +1,5 @@
 [build]
   base = "."
   # The finished handbook is committed in dist. Vite builds a separate UI preview.
-  command = "node scripts/check-search.mjs && node --test tests/handbook-check.test.mjs"
+  command = "npm run prepare:handbook && npm run test:handbook"
   publish = "dist"
-
-[functions]
-  directory = "netlify/functions"
-  node_bundler = "esbuild"

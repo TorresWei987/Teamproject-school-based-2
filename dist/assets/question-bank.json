@@ -1,0 +1,2446 @@
+{
+  "source_date": "2026-10-28",
+  "content_review_date": "2026-11-02",
+  "pdf_sha256": "eca0bed8ba4434159173618a48148f9711a34ab56681daef8fb5ae3405a6b580",
+  "withheld_ids": [
+    "DRESS-04",
+    "ATTENDANCE-02",
+    "INTEGRITY-03"
+  ],
+  "questions": [
+    {
+      "id": "DRESS-01",
+      "category": "Dress Code",
+      "question": "Can I wear a hoodie or sweatshirt at school?",
+      "alternative_wording": [
+        "Are hoodies allowed?",
+        "Can I wear an OCS sweatshirt?",
+        "Can I wear a college sweatshirt?",
+        "Do I need a polo under my hoodie?",
+        "Can I wear a hoodie?",
+        "It's cold. Can I put a sweatshirt over my polo?",
+        "Are college sweatshirts okay for seniors?",
+        "I'm a junior. Can I wear a UCLA hoodie?",
+        "Does my hoodie need to be OCS?",
+        "Can I wear a college hoodie if I'm a freshman?",
+        "Can a sweatshirt replace my uniform shirt?",
+        "Do I need a polo underneath my sweatshirt?",
+        "Is an Oaks team sweatshirt okay?",
+        "Can I wear an OCS spirit hoodie to class?",
+        "What kind of sweatshirt can I wear?",
+        "Can seniors wear university hoodies?",
+        "Is a non-school hoodie allowed over my polo?",
+        "Are plain hoodies part of the uniform?",
+        "I forgot my polo but have an OCS sweatshirt. Is that enough?",
+        "Can I put a Stanford sweatshirt over an Oxford?",
+        "I'm freezing. Are school sweatshirts allowed?",
+        "Can sophomores wear college sweatshirts?"
+      ],
+      "short_answer": "Only approved options are listed for normal school days: an approved OCS athletic, spirit, or leadership sweatshirt over an Oaks polo or Oxford. Juniors and seniors may also wear a qualifying college sweatshirt over an Oaks polo or Oxford.",
+      "conditions": [
+        "A college sweatshirt must be a solid color and clearly display the college or university name.",
+        "The college-sweatshirt option is stated for juniors and seniors.",
+        "A sweatshirt does not replace the required polo or Oxford underneath.",
+        "Special non-uniform dress requires Office of Student Life permission; follow event-specific instructions."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code Policy - Outerwear",
+          "kind": "text",
+          "quote": "Students may wear an approved OCS athletic/spirit/leadership sweatshirt over an Oaks polo or oxford."
+        },
+        {
+          "page": 57,
+          "section": "Dress Code Policy - Outerwear",
+          "kind": "text",
+          "quote": "Juniors and Seniors may also wear a collegiate sweatshirt, over an Oaks polo or oxford, which must be a solid color and distinctly display the name of the college/university."
+        },
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Clothing",
+          "kind": "text",
+          "quote": "Permission for special non-uniform dress is only granted by the Office of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-02",
+      "category": "Dress Code",
+      "question": "Can I wear joggers, sweatpants, or athletic shorts on a normal school day?",
+      "alternative_wording": [
+        "Can I wear sweats?",
+        "Are OC joggers allowed?",
+        "Can I wear PE shorts all day?",
+        "Are sweatpants part of the uniform?",
+        "Can I wear sweatpants?",
+        "Are joggers allowed at school?",
+        "What about OCS-branded sweats?",
+        "Are athletic shorts part of the uniform?",
+        "Can I wear my team shorts all day?",
+        "My sweatpants have the Oaks logo. Are they okay?",
+        "Are black joggers considered uniform pants?",
+        "Can I show up in basketball shorts?",
+        "Is it okay to wear gym shorts to normal classes?",
+        "Do school-brand joggers count as dress pants?",
+        "Can I wear sweats on a normal uniform day?",
+        "Are OCS workout shorts allowed outside exercise class?"
+      ],
+      "short_answer": "No. The normal-day uniform list explicitly excludes athletic shorts, sweatpants, and joggers, including OC-branded versions.",
+      "conditions": [
+        "The handbook makes a uniform exception while a student is actively participating in dance or strength and conditioning class.",
+        "Outside that active participation, students are expected to be in school uniform during school hours.",
+        "Special non-uniform dress needs permission from the Office of Student Life."
+      ],
+      "sources": [
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Pants",
+          "kind": "text",
+          "quote": "NO athletic shorts, sweatpants or joggers (this includes OC joggers/sweatpants/shorts)"
+        },
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Clothing",
+          "kind": "text",
+          "quote": "Students are expected to be in school uniform during school hours unless the student is actively participating in a dance class or strength & conditioning class."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-03",
+      "category": "Dress Code",
+      "question": "Can I wear Crocs or slides to school?",
+      "alternative_wording": [
+        "Are crocs allowed?",
+        "Can I wear slides?",
+        "Can I wear slippers or flip-flops?",
+        "Do my school shoes need laces?",
+        "Can I wear Crocs?",
+        "Are slides allowed?",
+        "Can I wear slippers to class?",
+        "Do my shoes need laces?",
+        "What shoes are banned?",
+        "Are open-toe shoes okay?",
+        "Can I come in beach sandals?",
+        "Can I wear shoes with an open heel?",
+        "Are combat boots allowed?",
+        "Can I wear heels taller than two inches?",
+        "My shoes don't have shoelaces. Can I wear them?",
+        "Can I wear Crocs with the strap on?",
+        "Is putting Crocs in sport mode enough?",
+        "Can I wear slip-on shoes on campus?"
+      ],
+      "short_answer": "No. The handbook explicitly prohibits Crocs on campus and includes slides, slippers, beach sandals, and shoes without laces in its prohibited school footwear list.",
+      "conditions": [
+        "The school-day rule requires proper shoes with laces and also excludes shoes open at the toe or heel.",
+        "The stated formal-dress exception concerns school-approved heels over two inches; it does not state an exception for Crocs or slides."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code Policy - Shoes",
+          "kind": "text",
+          "quote": "Proper shoes with laces are required."
+        },
+        {
+          "page": 57,
+          "section": "Dress Code Policy - Shoes",
+          "kind": "text",
+          "quote": "slippers, slides or shoes with a heel more than two inches are never allowed to be worn by students at school."
+        },
+        {
+          "page": 57,
+          "section": "Dress Code Policy - Shoes",
+          "kind": "text",
+          "quote": "Shoes with heels more than two inches may be worn during formal dress occasions when approved by the school. CROCS are not allowed to be worn on campus."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-05",
+      "category": "Dress Code",
+      "question": "Which shirts and colors are allowed for the normal school uniform?",
+      "alternative_wording": [
+        "What color polo can I wear?",
+        "Does my shirt need the OCS logo?",
+        "Can I wear a colored Oxford shirt?",
+        "What shirt goes under a school sweatshirt?",
+        "Can my polo be gray?",
+        "Is a white Oxford allowed?",
+        "Can I wear a black Oxford shirt?",
+        "What shirts count as uniform?",
+        "Can I wear a plain T-shirt instead of a polo?",
+        "Can I wear a black undershirt?",
+        "Is a white undershirt okay under my polo?",
+        "How many Oxford buttons can I undo?",
+        "Can my uniform shirt be cardinal?",
+        "Are blue polos allowed on normal days?",
+        "Does a school-approved polo have to stay on?"
+      ],
+      "short_answer": "Wear a school-approved polo or Oxford shirt with the OCS logo. Polo colors are white, cardinal, black, and gray. Oxford shirts may be white only.",
+      "conditions": [
+        "Students must always wear a school-approved shirt.",
+        "Only the top button of an Oxford shirt may be unbuttoned.",
+        "White or black short-sleeved undershirts may be worn only underneath a polo or Oxford.",
+        "Follow approved instructions for any special non-uniform day."
+      ],
+      "sources": [
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Shirts",
+          "kind": "text",
+          "quote": "Polo or Oxford shirts (OCS logo). Students must always wear a school approved shirt. Polo shirt colors include white, cardinal, black, and gray. Oxford shirts may be white only."
+        },
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Shirts",
+          "kind": "text",
+          "quote": "Only the top button of an Oxford shirt may be unbuttoned."
+        },
+        {
+          "page": 56,
+          "section": "Dress Code Policy - Shirts",
+          "kind": "text",
+          "quote": "White or black short-sleeved undershirts may only be worn under polo or oxford shirts"
+        }
+      ]
+    },
+    {
+      "id": "DRESS-06",
+      "category": "Dress Code",
+      "question": "What happens the first time I break the uniform rules?",
+      "alternative_wording": [
+        "What is the first dress-code consequence?",
+        "Do I have to change clothes?",
+        "Will my parents be told about a uniform violation?",
+        "Can I return to class out of uniform?",
+        "What happens for my first dress-code violation?",
+        "I forgot my uniform. Can I go back to class?",
+        "Will I just get a warning for my first uniform offense?",
+        "Do my parents get notified the first time I'm out of uniform?",
+        "Can I stay in class until someone brings my uniform?",
+        "Where do I go if my clothes break the rules?",
+        "What happens if I get dress coded for the first time?",
+        "Do I have to change before returning to class?",
+        "Can my parent bring the right clothes?",
+        "Is the first uniform warning recorded in AXIS?"
+      ],
+      "short_answer": "The first offense includes a warning, but you must change into school uniform or wait for a parent to bring suitable uniform items before returning to class. A parent receives an automated message.",
+      "conditions": [
+        "Students who do not follow uniform guidelines are sent to the Office of Student Life.",
+        "Each offense is recorded in the student's conduct section in AXIS.",
+        "Repeated violations have additional consequences; the first-offense answer does not cover that escalation schedule."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "School Uniform Violations",
+          "kind": "text",
+          "quote": "Students who do not follow the school guidelines will be sent to the Office of Student Life and will be required to be in school uniform before returning to class."
+        },
+        {
+          "page": 57,
+          "section": "School Uniform Violations - First Offense",
+          "kind": "text",
+          "quote": "1st Offense – Warning is issued. Student must change into school uniform or wait for a parent to bring appropriate uniform items(s) to return to class. Parent(s) will receive an automated message."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-01",
+      "category": "Attendance",
+      "question": "How should my parent or guardian report an absence?",
+      "alternative_wording": [
+        "How do I call in sick?",
+        "Where do my parents report that I am absent?",
+        "Can my parent report my absence in AXIS?",
+        "How long do we have to clear an absence?",
+        "How does my mom report me absent?",
+        "How should my dad clear my absence?",
+        "Can my guardian report an absence in AXIS?",
+        "I'm home sick. How do my parents notify school?",
+        "Who needs to report that I missed school?",
+        "Can I clear my own absence?",
+        "How long do my parents have to report an absence?",
+        "What's the preferred way to report an absence?",
+        "Do my parents need to contact Attendance when I'm out?",
+        "How do I get yesterday's absence cleared?",
+        "My parent knows I'm absent. Do they still need to report it?",
+        "Can I report being absent myself?"
+      ],
+      "short_answer": "A parent or guardian should report the absence in AXIS, the preferred method. Absences must be cleared within 72 hours.",
+      "conditions": [
+        "Parents should inform the school ahead of time when possible.",
+        "If AXIS is unavailable, use the Attendance Office contact details in the current online handbook.",
+        "A student cannot rely on reporting the absence personally instead of parent or guardian communication.",
+        "An unreported absence can affect credit for assignments and assessments."
+      ],
+      "sources": [
+        {
+          "page": 61,
+          "section": "Attendance - All Day Absences",
+          "kind": "text",
+          "quote": "PREFERRED: Record absence/early release/or late arrival in AXIS."
+        },
+        {
+          "page": 61,
+          "section": "Attendance - All Day Absences",
+          "kind": "text",
+          "quote": "Only to be used after absence has occurred: Email (agreason@oakschristian.org)"
+        },
+        {
+          "page": 61,
+          "section": "Attendance - All Day Absences",
+          "kind": "text",
+          "quote": "Parents must clear a student’s absence within 72 hours using AXIS or contacting the school attendance officer."
+        },
+        {
+          "page": 59,
+          "section": "Attendance - Overview",
+          "kind": "text",
+          "quote": "When it becomes necessary for a student to miss school, parents are expected to inform the school, if possible, ahead of time."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-03",
+      "category": "Attendance",
+      "question": "Is being late because of traffic or car trouble an excused tardy?",
+      "alternative_wording": [
+        "Does traffic excuse being late?",
+        "My carpool was late - is that excused?",
+        "What if the car broke down?",
+        "Is oversleeping an excused tardy?",
+        "My car broke down. Is my tardy excused?",
+        "My carpool was late. Does that count?",
+        "I overslept. Is that an excused tardy?",
+        "Does a schedule mix-up excuse a late arrival?",
+        "My parent says traffic was bad. Is the tardy excused now?",
+        "Is sleeping through my alarm a valid tardy excuse?",
+        "Will car trouble count as unexcused lateness?",
+        "Who should we contact if tardies are outside our control?",
+        "Is normal commuter traffic an approved reason to be late?",
+        "I missed my ride and got to class late. What rule applies?",
+        "My ride showed up late. Does that excuse me?"
+      ],
+      "short_answer": "Traffic, transportation or carpool issues, car problems, and sleeping in are listed as unexcused reasons for tardiness.",
+      "conditions": [
+        "A parent reporting an issue does not by itself turn it into a school-approved reason.",
+        "The handbook asks families to contact the Office of Student Life when tardies are outside their control; the office handles the individual situation."
+      ],
+      "sources": [
+        {
+          "page": 63,
+          "section": "Attendance - Unexcused Tardies",
+          "kind": "text",
+          "quote": "Unexcused tardies include: sleeping in transportation/carpool issues car problems traffic schedule mix-up"
+        },
+        {
+          "page": 64,
+          "section": "Excessive Tardy Policy",
+          "kind": "text",
+          "quote": "Students and parents are asked to notify the Office of Student Life if there is a situation where the tardies are outside of their control."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-04",
+      "category": "Attendance",
+      "question": "How do I get permission to leave school early for an appointment?",
+      "alternative_wording": [
+        "How do I check out early?",
+        "Can my parent call to pick me up?",
+        "Can I drive myself to an appointment?",
+        "How far ahead do we report an early release?",
+        "I have a dentist appointment. How do I leave early?",
+        "Can my parent pick me up early?",
+        "How much notice is needed for early release?",
+        "Do I need a doctor's note after an appointment?",
+        "Does my parent need to report the time I leave?",
+        "Where does a parent check in to pick me up?",
+        "Can I leave before the Attendance Office confirms permission?",
+        "How do I get out of class for an appointment?",
+        "Does early pickup need two hours of notice?",
+        "Can my mom report early release in AXIS?",
+        "What paperwork do I need when returning from an appointment?"
+      ],
+      "short_answer": "A parent must report the reason and departure time in AXIS at least two hours ahead, or release may be delayed. Do not leave before the Attendance Office verifies parental permission.",
+      "conditions": [
+        "Provide proof of the appointment when returning to school, such as a doctor's note.",
+        "A parent picking up a student must be verified at the front desk.",
+        "If you drive yourself, a parent must still inform the Attendance Office before release.",
+        "The handbook says students will not be released during lunch based on a parent phone call. Off-campus privileges follow separate rules."
+      ],
+      "sources": [
+        {
+          "page": 64,
+          "section": "Student Pick-Up and Appointment Release",
+          "kind": "text",
+          "quote": "Parents must report an early release using AXIS, with the reason and time of departure, at least two hours in advance, or there may be a delay in the student’s departure."
+        },
+        {
+          "page": 64,
+          "section": "Student Pick-Up and Appointment Release",
+          "kind": "text",
+          "quote": "If a student leaves prior to parental permission verified by the attendance office, they will be considered truant."
+        },
+        {
+          "page": 64,
+          "section": "Student Pick-Up and Appointment Release",
+          "kind": "text",
+          "quote": "Students who are driving themselves to an appointment must have a parent inform the attendance office prior to their release."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-05",
+      "category": "Attendance",
+      "question": "Can missing a test affect my grade even if my parent reports the absence?",
+      "alternative_wording": [
+        "Does a parent note remove a missed-test penalty?",
+        "What happens if I am absent on a test day?",
+        "Will an excused absence on a quiz day affect my grade?",
+        "Is there a penalty for repeatedly missing assessments?",
+        "Can I lose points for missing a test if my parent called?",
+        "Is there a grade penalty for missing an assessment?",
+        "What's the assessment absence penalty?",
+        "Does an excused test-day absence still affect my grade?",
+        "Is the first missed assessment a warning?",
+        "Will I lose fifteen percent for another assessment-day absence?",
+        "Who can approve an exception to an assessment absence penalty?",
+        "Can I avoid a test penalty just by having my parents report me absent?",
+        "Does being parent-reported protect my test grade?",
+        "How are repeated absences on test days handled?",
+        "I missed a quiz and my parent reported it. Can my grade drop?",
+        "Are test-day absences treated differently?"
+      ],
+      "short_answer": "Yes. The Parent Reported/Excused Absence subsection says the first assessment-day absence receives a warning, and each subsequent assessment-day absence results in a 15% assessment penalty. Exceptions require administration approval.",
+      "conditions": [
+        "This answer concerns the parent-reported or excused assessment-day rule; unexcused absences have a separate penalty rule.",
+        "The same section has makeup deadlines and additional rules for repeatedly missed AP or Honors assessments. Confirm your actual situation with the teacher and school administration.",
+        "The source contains two differently worded makeup-deadline rules. This answer does not promise an automatic five-day extension."
+      ],
+      "sources": [
+        {
+          "page": 61,
+          "section": "Missed Assessment Classes/Day - Parent Reported/Excused Absence",
+          "kind": "text",
+          "quote": "Students who are absent on an assessment day, even if it is parent reported, will receive a warning for the first absence. Each subsequent absence on an assessment day will result in a grade penalty of 15% on the assessment."
+        },
+        {
+          "page": 61,
+          "section": "Missed Assessment Classes/Day",
+          "kind": "text",
+          "quote": "Any exception to this rule must be made by administration"
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-06",
+      "category": "Attendance",
+      "question": "Can I attend practice or a game if I miss Chapel, Community Assembly, or Advisory?",
+      "alternative_wording": [
+        "Can I skip chapel and still practice?",
+        "Does missing advisory affect sports?",
+        "Can I perform after missing assembly?",
+        "Does a parent excuse let me play after missing chapel?",
+        "Can I practice if I miss chapel?",
+        "Can I play in a game after skipping advisory?",
+        "Can I rehearse if I miss Community Assembly?",
+        "Does missing chapel stop me from playing sports that day?",
+        "I missed assembly but came to class. Can I compete?",
+        "Can I attend an arts performance after missing chapel?",
+        "Does a parent-reported chapel absence restore eligibility?",
+        "Can I miss advisory and still attend a school activity?",
+        "Am I allowed at practice after missing chapel for an appointment?",
+        "Are games and rehearsals affected by chapel attendance?",
+        "Does missing Community Assembly affect practice eligibility?",
+        "Can I participate in activities after missing advisory?"
+      ],
+      "short_answer": "The handbook says students who miss Chapel, Community Assembly, or Advisory may not participate in school athletics, arts, or other school activities that day. This includes practices and contests, as well as performances and rehearsals.",
+      "conditions": [
+        "The Chapel and Community Assembly paragraph on page 63 says this applies to absence for any reason; do not assume parent reporting restores eligibility.",
+        "Separate daily-attendance and unserved-detention rules can also affect eligibility. Confirm your status with the Office of Student Life."
+      ],
+      "sources": [
+        {
+          "page": 62,
+          "section": "Chapel and Community Assembly Attendance",
+          "kind": "text",
+          "quote": "Students who do not attend Chapel, Community Assembly, or Advisory will NOT be allowed to participate in school athletics (practices and contests), the arts (performances and rehearsals), nor any other school activities that day."
+        },
+        {
+          "page": 63,
+          "section": "Participation in Athletics, Arts, and School Activities",
+          "kind": "text",
+          "quote": "Any student who is absent from Chapel or Community Assembly, for any reason, will NOT be allowed to participate in athletics"
+        }
+      ]
+    },
+    {
+      "id": "PHONE-01",
+      "category": "Phones and Devices",
+      "question": "Can I use my phone during lunch, passing periods, or outside during the school day?",
+      "alternative_wording": [
+        "Can I check my phone at lunch?",
+        "Can I text between classes?",
+        "Can I use my phone outside?",
+        "When must my phone be off?",
+        "Can I use my phone at lunch?",
+        "Can I check my phone outside?",
+        "Does the phone ban apply during passing periods?",
+        "When are cell phones banned during the school day?",
+        "Is using my phone allowed in the courtyard?",
+        "Can I use a phone during chapel?",
+        "Can Student Life tell us to use phones at an assembly?",
+        "Is the phone rule only for class time?",
+        "Can I look at my phone at 10 a.m.?",
+        "Can I send a quick text at school?",
+        "Can I check notifications during lunch?",
+        "Can I use my cellphone during the school day?",
+        "Are phones allowed outside school buildings during school hours?",
+        "Can I use a phone during Community Assembly?"
+      ],
+      "short_answer": "The general rule prohibits student cell-phone use throughout the school day, stated as 8:30 a.m. to 3:15 p.m., both indoors and outdoors. It is not limited to class time.",
+      "conditions": [
+        "The phone must be turned off and stored for the school day.",
+        "Page 70 provides a narrow exception for phone use during Chapel or an assembly when the Office of Student Life instructs students to do so. This is not a general lunch or passing-period exception.",
+        "Confirm any individual special arrangement directly with the Office of Student Life; none is granted by this FAQ."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Personal Electronic Devices - Overview",
+          "kind": "text",
+          "quote": "the use of cell phones by students during the school day (8:30am-3:15pm), whether inside school buildings or in outdoor areas, is prohibited."
+        },
+        {
+          "page": 70,
+          "section": "Guidelines for the Use of Electronic Devices",
+          "kind": "text",
+          "quote": "Cell phones may not be used during chapel, community assembly, or an indoor assembly unless instructed to do so by the Office of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-02",
+      "category": "Phones and Devices",
+      "question": "Can I keep my phone in my pocket if it is switched off?",
+      "alternative_wording": [
+        "Can I carry my phone on me?",
+        "Does turning off my phone make pocket storage okay?",
+        "Where should I put my phone?",
+        "Can my phone stay in my backpack?",
+        "Can I keep my phone in my pocket?",
+        "My phone is off. Can I carry it on me?",
+        "Does my phone have to stay in my backpack?",
+        "Can I put my phone in a locker?",
+        "Where should I store my phone?",
+        "Does airplane mode mean I can keep it in my pocket?",
+        "Can I carry a switched-off phone?",
+        "Can my phone stay in my car?",
+        "Does turning my phone off satisfy the storage rule?",
+        "Can I hold my phone if I don't use it?",
+        "Must a phone be off and put away?",
+        "Is a pocket an approved phone storage place?",
+        "My phone is on silent in my pocket. Is that okay?",
+        "Can I put my phone in my bag instead of my locker?"
+      ],
+      "short_answer": "No. During the school day, phones must be off and stored in a backpack, locker, or vehicle. The handbook explicitly says phones may not be on a student's person.",
+      "conditions": [
+        "Turning a phone off does not remove the separate storage rule.",
+        "The rule applies during the school day, not just while a class is in session."
+      ],
+      "sources": [
+        {
+          "page": 70,
+          "section": "Guidelines for the Use of Electronic Devices",
+          "kind": "text",
+          "quote": "Phones should be off and stored at the beginning of each school day. Devices may be stored in backpacks, lockers, or vehicles. Phones may not be on a student’s person at any time during the school day."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-03",
+      "category": "Phones and Devices",
+      "question": "Can I wear AirPods, earbuds, or headphones at school?",
+      "alternative_wording": [
+        "Can I listen to music with earbuds?",
+        "Are headphones allowed at lunch?",
+        "Can I use AirPods in the library?",
+        "Can I play music out loud?",
+        "Can I wear AirPods?",
+        "Can I listen to music with earbuds at school?",
+        "Is one earbud allowed?",
+        "Can I use headphones in the library for schoolwork?",
+        "Are headphones allowed during the school day?",
+        "Can I wear earbuds if nothing is playing?",
+        "Does the library exception cover listening to music?",
+        "Can I use AirPods for an academic task in the Library?",
+        "Can I bring a speaker and play music on campus?",
+        "Does my approved library device let me use headphones for academics?",
+        "Can I walk around with headphones on?"
+      ],
+      "short_answer": "Headphones, earbuds, and AirPods may not be worn during the school day. The stated exception is academic use in the Library while connected to an approved electronic device.",
+      "conditions": [
+        "The Library exception is for academic purposes, not a general permission to listen to music.",
+        "Playing music aloud is prohibited on campus during the school day."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Headphones/Earbuds/Air pods/Laptops",
+          "kind": "text",
+          "quote": "Headphones/earbuds/Air pods may not be worn during the school day."
+        },
+        {
+          "page": 69,
+          "section": "Headphones/Earbuds/Air pods/Laptops",
+          "kind": "text",
+          "quote": "Headphones/earbuds/Air pods may only be used in the Library for academic purposes when connected to an approved electronic device. Playing music aloud is prohibited on campus during the school day."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-04",
+      "category": "Phones and Devices",
+      "question": "Can I wear smart glasses on campus or at a school event?",
+      "alternative_wording": [
+        "Are smart glasses allowed?",
+        "Can I wear camera glasses to a game?",
+        "Can I use smart glasses on a field trip?",
+        "Can I wear smart glasses at a school performance?",
+        "Can I wear smart glasses?",
+        "Are Ray-Ban Meta glasses allowed at school?",
+        "Can I wear smart glasses if I don't record?",
+        "Do smart glasses rules apply at games?",
+        "Are AI glasses allowed at a school retreat?",
+        "Can I wear camera glasses to a performance?",
+        "Are smart glasses banned on every OCS campus?",
+        "Can I use Meta glasses at a school event?",
+        "Is wearing smart glasses prohibited even when turned off?"
+      ],
+      "short_answer": "No. The handbook prohibits wearing or using smart glasses on any Oaks Christian campus and during school events.",
+      "conditions": [
+        "The listed events include athletics, arts events, retreats, and field trips; the list is not limited to those examples.",
+        "The policy concerns wearing or using smart glasses, not only actively recording with them."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Personal Electronic Devices - Smart Glasses",
+          "kind": "text",
+          "quote": "Smart Glasses may not be worn\\used on any of Oaks Christian’s campuses nor during any school events, which include but are not limited to athletic events, arts events, retreats, field trips, etc."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-05",
+      "category": "Phones and Devices",
+      "question": "What happens the first time my phone is confiscated?",
+      "alternative_wording": [
+        "When can I get my phone back?",
+        "Where do I collect my phone?",
+        "What is the first phone-use consequence?",
+        "Will my phone stay in Student Life until after school?",
+        "My phone got taken for the first time. When do I get it back?",
+        "Where do I collect a confiscated phone?",
+        "Can I get my phone back before 3:15 after my first offense?",
+        "What happens the first time I get caught with my phone?",
+        "Do I have to surrender my phone?",
+        "What is the first cell phone consequence?",
+        "Can I pick up my phone after school for a first violation?",
+        "Who holds a confiscated phone?",
+        "Does my first phone offense get recorded?",
+        "When can I pick up my phone after the first confiscation?"
+      ],
+      "short_answer": "For the first offense, the device is surrendered. The student may pick it up from the Office of Student Life after 3:15 p.m.",
+      "conditions": [
+        "Each offense is recorded in AXIS.",
+        "Repeated offenses have additional consequences, including parent contact, a behavior contract, suspension, and an enrollment hold at later stages. See the full sequence on PDF pages 70-71.",
+        "This answer describes the first offense, not a promise that every later confiscation has only the same consequence."
+      ],
+      "sources": [
+        {
+          "page": 70,
+          "section": "Technology Consequences - First Offense",
+          "kind": "text",
+          "quote": "1st offense – The device will be surrendered, and the student may pick up their device after 3:15pm from the Office of Student Life."
+        },
+        {
+          "page": 70,
+          "section": "Technology Consequences",
+          "kind": "text",
+          "quote": "Each offense will be recorded in AXIS under the student’s conduct section."
+        },
+        {
+          "page": 71,
+          "section": "Technology Consequences - Sixth Offense",
+          "kind": "text",
+          "quote": "Student will be placed on an enrollment hold"
+        }
+      ]
+    },
+    {
+      "id": "PHONE-06",
+      "category": "Phones and Devices",
+      "question": "Can I use my laptop to take notes or do assignments in class?",
+      "alternative_wording": [
+        "Can I bring my own laptop?",
+        "Can I take notes on a computer?",
+        "Can a teacher tell me to put my laptop away?",
+        "Can I use a tablet in class?",
+        "Can I use my laptop for notes?",
+        "Can I do class assignments on my own computer?",
+        "Does my teacher decide if I can use a tablet?",
+        "Can a teacher make me put my laptop away?",
+        "Are personal laptops allowed for schoolwork in class?",
+        "Who is responsible if I bring a laptop?",
+        "Can I keep my laptop out if I'm not doing approved classwork?",
+        "Are tablets allowed during lessons?",
+        "Does being BYOD mean I can always use my device?",
+        "Can I take notes on an iPad with teacher permission?",
+        "Can I bring my own computer to class?",
+        "Who decides when personal computers are used in class?"
+      ],
+      "short_answer": "Laptops and tablets may be used in class at the teacher's discretion. Personal laptops may be used for notes and assignments, but the teacher can require a laptop to be put away if it is being used for something other than approved classwork.",
+      "conditions": [
+        "Students are responsible for the safety and security of devices they bring.",
+        "Recording classroom audio or video requires teacher permission.",
+        "The handbook prohibits recording, storing, or transmitting sensitive information such as quiz or test content."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Headphones/Earbuds/Air pods/Laptops",
+          "kind": "text",
+          "quote": "Personal laptop computers may be used for taking notes and for assignments at the teacher’s discretion."
+        },
+        {
+          "page": 69,
+          "section": "Headphones/Earbuds/Air pods/Laptops",
+          "kind": "text",
+          "quote": "A teacher may ask a student to put the laptop away at any time if the student is using it for purposes other than approved class work."
+        },
+        {
+          "page": 39,
+          "section": "Academic Integrity - Devices",
+          "kind": "text",
+          "quote": "Laptops and tablets may be used in the classroom only at the discretion of the teacher."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-01",
+      "category": "Academic Integrity and AI",
+      "question": "Can I use ChatGPT or another AI tool for homework or an assignment?",
+      "alternative_wording": [
+        "Can AI write my homework?",
+        "Is ChatGPT allowed for schoolwork?",
+        "Can I turn in AI-generated work?",
+        "Does my teacher need to approve AI use?",
+        "Can I use ChatGPT for homework?",
+        "Can AI write my essay?",
+        "Is Gemini allowed for an assignment?",
+        "Do I need permission to use Claude for schoolwork?",
+        "Can I turn in AI-generated work as my own?",
+        "Can Photomath do my assignment?",
+        "Can I use AI without telling my teacher?",
+        "Are freshmen automatically allowed to use LLMs?",
+        "Can juniors assume AI is allowed?",
+        "Is using AI okay just because everyone does it?",
+        "My teacher hasn't said anything about AI. Can I use it?",
+        "Can an AI tool do part of my project?",
+        "Does approval for one assignment cover every assignment?",
+        "Can I use a chatbot to write my school paper?"
+      ],
+      "short_answer": "Do not present AI-assisted or software-generated work as your own authentic work without teacher approval. The handbook's AI overview also says AI used in the generative process must be acknowledged through citation.",
+      "conditions": [
+        "Confirm the teacher's instructions for the actual assignment; do not assume permission carries over to other work.",
+        "Citation does not replace the teacher-approval requirement.",
+        "The overview says Large Language Model use should be primarily reserved for junior- and senior-level classes; it does not give automatic permission based on grade level.",
+        "Ask your teacher for the full AI Philosophy and Guidelines and the instructions for your assignment."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity - Artificial Intelligence",
+          "kind": "text",
+          "quote": "The use of artificial intelligence (chatGPT, Photomath, Google translate, Calculator, etc.) is not allowed to be presented as authentic work without teacher approval."
+        },
+        {
+          "page": 39,
+          "section": "OCS AI Stance at a Glance - Transparency",
+          "kind": "visual_table_transcription",
+          "quote": "When AI is used as part of the generative process for teachers or students, it must be acknowledged through some form of citation."
+        },
+        {
+          "page": 39,
+          "section": "OCS AI Stance at a Glance - Timeline",
+          "kind": "visual_table_transcription",
+          "quote": "The use of Large Language Models should be primarily reserved for junior- and senior-level classes."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-02",
+      "category": "Academic Integrity and AI",
+      "question": "If my teacher allows AI, do I still have to acknowledge or cite it?",
+      "alternative_wording": [
+        "Do I need to cite ChatGPT?",
+        "Should I disclose allowed AI use?",
+        "Can I leave AI out of my citations?",
+        "How do I acknowledge AI help?",
+        "Do I have to cite ChatGPT?",
+        "How do I acknowledge AI use?",
+        "If the teacher allows AI do I still cite it?",
+        "Do AI-generated ideas need acknowledgment?",
+        "Is citing AI enough without permission?",
+        "Does an approved AI tool still need a citation?",
+        "What citation style should I use for AI?",
+        "Can I leave AI help out of my works cited?",
+        "Must I disclose AI in the generative process?",
+        "Does teacher approval remove the need to acknowledge AI?",
+        "Do I need to credit a chatbot that helped generate my work?",
+        "Should I tell my teacher which AI I used?"
+      ],
+      "short_answer": "Yes. The AI overview says that AI used as part of the generative process must be acknowledged through some form of citation.",
+      "conditions": [
+        "Teacher approval is still required under the academic-integrity rule; acknowledgment alone is not permission.",
+        "The overview does not specify a single citation style. Ask your teacher what acknowledgment is required for the assignment."
+      ],
+      "sources": [
+        {
+          "page": 39,
+          "section": "OCS AI Stance at a Glance - Transparency",
+          "kind": "visual_table_transcription",
+          "quote": "When AI is used as part of the generative process for teachers or students, it must be acknowledged through some form of citation."
+        },
+        {
+          "page": 37,
+          "section": "Academic Integrity - Artificial Intelligence",
+          "kind": "text",
+          "quote": "is not allowed to be presented as authentic work without teacher approval."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-04",
+      "category": "Academic Integrity and AI",
+      "question": "Is copying homework or letting a friend copy my work an academic-integrity violation?",
+      "alternative_wording": [
+        "Can I copy a friend's homework?",
+        "Can I give someone my answers?",
+        "Is letting someone copy just as serious?",
+        "Can I send a completed assignment to a friend?",
+        "Can I copy my friend's homework?",
+        "Can I let someone copy my answers?",
+        "Can I send my completed homework to a classmate?",
+        "Is giving someone my assignment cheating?",
+        "Am I responsible if I let a friend copy?",
+        "Can I copy classwork if I'm behind?",
+        "Does the helper get in trouble for copied homework?",
+        "Is sharing completed answers the same as permitted group work?",
+        "Can my friend copy just one homework answer?",
+        "Can I copy another student's class assignment?",
+        "Is letting someone use my homework academic dishonesty?",
+        "Can I share answers because my friend was absent?"
+      ],
+      "short_answer": "Yes. Copying homework or classwork is listed as cheating. Allowing someone else to copy is listed as facilitating academic dishonesty, and the handbook says the helper is equally responsible for the violation.",
+      "conditions": [
+        "The policy also addresses sharing completed assignments from a previous semester or year.",
+        "Ask your teacher what collaboration is permitted; do not treat legitimate group work and copying completed answers as the same activity."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity - Cheating",
+          "kind": "text",
+          "quote": "Copying homework or other class work."
+        },
+        {
+          "page": 37,
+          "section": "Facilitating Academic Dishonesty",
+          "kind": "text",
+          "quote": "Such students are equally as guilty of an academic integrity violation as the recipients of their aid."
+        },
+        {
+          "page": 37,
+          "section": "Facilitating Academic Dishonesty",
+          "kind": "text",
+          "quote": "Allowing another person to copy homework or other class work."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-05",
+      "category": "Academic Integrity and AI",
+      "question": "Can I submit the same essay or project for two different classes?",
+      "alternative_wording": [
+        "Can I reuse an old essay?",
+        "Can I turn in the same work twice?",
+        "Can one project count for two classes?",
+        "Can I reuse a big part of another assignment?",
+        "Can I submit the same essay in two classes?",
+        "Can I reuse a project for a second class?",
+        "Do I need permission to turn in old work for another class?",
+        "Can I use big parts of the same paper twice?",
+        "Is submitting one assignment to two teachers okay?",
+        "Can an English essay also count for history?",
+        "Can I turn in the same work twice without asking?",
+        "Is reusing most of a previous assignment allowed in another course?",
+        "Who should I ask before submitting the same work to two classes?",
+        "Does the two-class rule include major portions of a paper?"
+      ],
+      "short_answer": "Not without permission. The handbook lists submitting the same work, or major portions of it, for two classes without permission as cheating.",
+      "conditions": [
+        "The rule covers major portions of the same work, not only an identical complete submission.",
+        "Confirm the required permission with the relevant teachers before reusing work.",
+        "The quoted rule specifically concerns two classes. It does not establish a blanket rule for every possible reuse of old work."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity - Cheating",
+          "kind": "text",
+          "quote": "Submitting the same work or major portions of the same work for two classes without permission."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-06",
+      "category": "Academic Integrity and AI",
+      "question": "Do I still need to cite a source if I put its ideas into my own words?",
+      "alternative_wording": [
+        "Does paraphrasing need a citation?",
+        "Do I cite an article if I rewrite it?",
+        "Can I summarize a website without citing it?",
+        "When do I need quotation marks?",
+        "Do I cite sources if I rewrite everything?",
+        "Can I use an idea without credit if I change the words?",
+        "Do summaries need source acknowledgment?",
+        "Do copied words need quotation marks?",
+        "Is a works cited page required if the teacher asks for one?",
+        "If I use my own wording do I still credit the author?",
+        "Do I need quotation marks around exact words?",
+        "Can I omit a bibliography that the assignment requires?",
+        "Is uncited paraphrasing plagiarism?",
+        "Does changing a few words remove the need to cite?"
+      ],
+      "short_answer": "Yes. Summarizing or paraphrasing another person's ideas without acknowledging the source is listed as plagiarism. Rewriting the wording does not remove the need to credit the idea's source.",
+      "conditions": [
+        "Directly using another writer's words also requires quotation marks.",
+        "Include a bibliography or works-cited page when the assignment requires one.",
+        "Ask the teacher which citation format to use if the assignment instructions do not specify it."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity - Plagiarism",
+          "kind": "text",
+          "quote": "Summarizing or paraphrasing another’s idea, thought, or concept without acknowledging the source."
+        },
+        {
+          "page": 36,
+          "section": "Academic Integrity - Plagiarism",
+          "kind": "text",
+          "quote": "Neglecting to place quotation marks around another writer’s words."
+        },
+        {
+          "page": 36,
+          "section": "Academic Integrity - Plagiarism",
+          "kind": "text",
+          "quote": "Omitting a source citation for another’s idea or failing to include a bibliography or works cited page when requested for an assignment."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-07",
+      "category": "Dress Code",
+      "question": "Which pants and shorts can I wear with my uniform?",
+      "alternative_wording": [
+        "What pants can I wear?",
+        "Are khaki dress pants okay?",
+        "Can my uniform pants be black?",
+        "Are cargo pants allowed?",
+        "How short can uniform shorts be?",
+        "Do uniform shorts need the Oaks logo?",
+        "Can I wear pants with white stitching?",
+        "Can I fold down my waistband?",
+        "How far above my knees can my shorts end?",
+        "Can I wear plain casual dress pants?",
+        "Do oversized pants need a belt?",
+        "Are jeans on the normal uniform list?"
+      ],
+      "short_answer": "The list permits OCS-logo dress pants or shorts from Land’s End in khaki or black, and plain casual dress pants in khaki or black only. Shorts may be no more than four inches above the knee.",
+      "conditions": [
+        "Cargo pants, colored or white stitching, athletic shorts, sweatpants, and joggers are excluded.",
+        "Pants should fit correctly, sit at the waist with belt loops showing, and not be folded down."
+      ],
+      "sources": [
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "Dress pants or shorts from Land’s End with OCS logo (khaki or black). Shorts may not be shorter than 4 inches above the knee."
+        },
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "Plain Casual Dress Pants – Khaki or Black ONLY"
+        },
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "NO colored or white stitching. NO cargo pants. NO athletic shorts, sweatpants or joggers (this includes OC joggers/sweatpants/shorts)"
+        }
+      ]
+    },
+    {
+      "id": "DRESS-08",
+      "category": "Dress Code",
+      "question": "Which sweaters or cardigans are part of the uniform?",
+      "alternative_wording": [
+        "Can I wear a cardigan?",
+        "Which sweaters are approved?",
+        "Are V-neck sweaters allowed?",
+        "Can I wear a black OCS sweater?",
+        "Can my cardigan be gray?",
+        "Is a white OCS cardigan okay?",
+        "Are cardinal sweaters part of the uniform?",
+        "Can I wear any sweater if it's cold?",
+        "Does my cardigan need an OCS logo?",
+        "What sweater colors are allowed?"
+      ],
+      "short_answer": "The approved list includes black or cardinal V-neck sweaters and gray and white cardigans with the OCS logo. No other sweaters are authorized.",
+      "conditions": [
+        "Sweatshirts follow the separate outerwear rule.",
+        "Ask the Deans of Student Life about an item that is not clearly on the approved list."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code - Grooming and Accessories",
+          "kind": "text",
+          "quote": "Sweaters — Black or cardinal V-neck sweaters and gray and white cardigan with OCS logo. No other sweaters are authorized."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-09",
+      "category": "Dress Code",
+      "question": "Can I stay in workout clothes after dance or strength and conditioning class?",
+      "alternative_wording": [
+        "Do I have to change after dance?",
+        "Can I stay in gym clothes after strength and conditioning?",
+        "Is workout clothing allowed all day if I have a workout class?",
+        "When does the exercise-class uniform exception apply?",
+        "Can I go to my next class in dance clothes?",
+        "Do I need uniform clothes after lifting class?",
+        "Can I wear PE clothes outside the actual workout?",
+        "I'm done with conditioning. Do I need to change back?",
+        "Does having dance excuse me from uniform for the whole day?",
+        "Are exercise clothes allowed while actively participating in dance?"
+      ],
+      "short_answer": "The uniform exception applies while you are actively participating in dance or strength and conditioning class. Otherwise, students are expected to be in uniform during school hours.",
+      "conditions": [
+        "A workout class does not create an all-day permission to wear athletic clothing.",
+        "Special non-uniform dress requires permission from the Office of Student Life."
+      ],
+      "sources": [
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "Students are expected to be in school uniform during school hours unless the student is actively participating in a dance class or strength & conditioning class. Permission for special non-uniform dress is only granted by the Office of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-10",
+      "category": "Dress Code",
+      "question": "Where can I buy the school uniform?",
+      "alternative_wording": [
+        "Where do I buy uniforms?",
+        "Where is the uniform sold?",
+        "Can we buy uniform items from Lands End?",
+        "Is Malachi's Closet an approved uniform seller?",
+        "Where can I get a school polo?",
+        "Who can answer questions about uniform items?",
+        "Where do families purchase OCS clothes?",
+        "Where should I shop for school uniform?",
+        "Does the handbook name uniform suppliers?",
+        "Where can I buy approved school pants?"
+      ],
+      "short_answer": "The handbook lists Land’s End and Malachi’s Closet as places to purchase uniforms.",
+      "conditions": [
+        "Check that each item meets the approved clothing list.",
+        "Direct uniform questions or concerns to the Deans of Student Life."
+      ],
+      "sources": [
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "Uniforms may be purchased from Land’s End and from Malachi’s Closet. Students may only wear what is listed below."
+        },
+        {
+          "page": 56,
+          "section": "Dress Code - School Uniform Expectations",
+          "kind": "text",
+          "quote": "Any questions or concerns regarding the school uniform are to be directed to the Deans of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-11",
+      "category": "Dress Code",
+      "question": "Are nose rings and other visible body piercings allowed?",
+      "alternative_wording": [
+        "Can I wear a nose ring?",
+        "Is a nose stud allowed?",
+        "Can I have a lip piercing?",
+        "Are earrings allowed?",
+        "What piercings can be visible?",
+        "Can I have an eyebrow piercing?",
+        "Is a tongue piercing okay?",
+        "Does a nose stud have to be small?",
+        "Who decides if my nose piercing is discreet enough?",
+        "Are visible body piercings against dress code?"
+      ],
+      "short_answer": "Visible body piercings are prohibited except earrings. A nose piercing is permitted only as a small, discreet stud, at the discretion of the Office of Student Life.",
+      "conditions": [
+        "The prohibited examples include eyebrow, lip, and tongue piercings.",
+        "The nose-piercing exception does not grant permission for a nose ring. Jewelry must be modest."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code - Grooming and Accessories",
+          "kind": "text",
+          "quote": "Jewelry is to be modest. Visible body piercings (eyebrow piercing, lip piercing, etc.) are not allowed (including tongue piercing), except for earrings. Nose piercings are allowed only if it is a small and discreet stud (at the discretion of the Office of Student Life)."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-12",
+      "category": "Dress Code",
+      "question": "Do I have to cover tattoos at school and school events?",
+      "alternative_wording": [
+        "Do tattoos have to be covered?",
+        "Can my tattoo show during a game?",
+        "Must I cover tattoos at practice?",
+        "Can I use an arm sleeve to cover a tattoo?",
+        "Can I show a tattoo at a school event?",
+        "Does the tattoo rule apply to extracurricular activities?",
+        "Do I need long sleeves over a tattoo?",
+        "Are visible tattoos allowed on campus?",
+        "Can my tattoo be visible during school hours?",
+        "Is covering tattoos required when representing OCS?"
+      ],
+      "short_answer": "Yes. Tattoos must not be displayed. Cover them with long-sleeved clothing or arm sleeves during OCS functions, including the school day, extracurricular activities, and sports.",
+      "conditions": [
+        "The rule also applies when you represent the school outside regular classes."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code - Grooming and Accessories",
+          "kind": "text",
+          "quote": "Tattoos are not to be displayed. Tattoos must be covered up by long sleeve clothing or arm sleeves during OCS functions (school day, extra-curricular activities, and sports)."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-13",
+      "category": "Dress Code",
+      "question": "Can clothing or backpacks display political slogans or alcohol and tobacco brands?",
+      "alternative_wording": [
+        "Can my backpack have a political slogan?",
+        "Are alcohol logos allowed on clothes?",
+        "Can I carry a notebook with offensive words?",
+        "Can I wear a tobacco brand?",
+        "Is a cannabis logo allowed on a bag?",
+        "Are political statements on clothing permitted?",
+        "Can jewelry show an inappropriate brand?",
+        "Do restrictions on offensive images apply to folders too?",
+        "Can my shirt display a beer brand?",
+        "What pictures and slogans are not allowed on carried items?"
+      ],
+      "short_answer": "No. The handbook prohibits the listed brands, offensive words, inappropriate products, political slogans, and images that do not support school values on clothing, jewelry, makeup, or carried items.",
+      "conditions": [
+        "The examples of carried items include notebooks, folders, and backpacks.",
+        "This restriction applies at all times under the stated rule."
+      ],
+      "sources": [
+        {
+          "page": 57,
+          "section": "Dress Code - Grooming and Accessories",
+          "kind": "text",
+          "quote": "At no time shall students wear any article of clothing, jewelry or make-up or carry any item (e.g., notebook, folder, or backpack) that displays alcohol/tobacco/cannabis brands, offensive words, inappropriate products, political slogans, or image that does not support the values, rules, or philosophy of Oaks Christian School."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-14",
+      "category": "Dress Code",
+      "question": "What should I wear to a school concert, theater performance, or art show?",
+      "alternative_wording": [
+        "What do I wear to a school concert?",
+        "Can I wear jeans to a theater performance?",
+        "Can I wear a T-shirt to an art show?",
+        "Is a dress okay for a school performance?",
+        "What is the dress code for concerts?",
+        "Do school events have special clothing rules?",
+        "What should I wear to a school art exhibition?",
+        "Are nice pants and a shirt expected at a performance?",
+        "Are there instructions for non-uniform days?",
+        "Who gives dress instructions for an arts event?"
+      ],
+      "short_answer": "The handbook specifies neat, clean pants with a nice shirt: no jeans or T-shirts. It also provides the option of an appropriate skirt or dress for girls under Arts Department guidance.",
+      "conditions": [
+        "All clothing must fit appropriately.",
+        "Follow any specific event or non-uniform-day instructions."
+      ],
+      "sources": [
+        {
+          "page": 58,
+          "section": "Dress Code - Consequences and Events",
+          "kind": "text",
+          "quote": "Dress for concerts, theater performances or art shows shall include neat, clean pants (no jeans) and a nice shirt (no T-shirts), with the option of an appropriate skirt or dress for girls (per the Arts Department). All clothing should fit appropriately."
+        },
+        {
+          "page": 58,
+          "section": "Dress Code - Consequences and Events",
+          "kind": "text",
+          "quote": "Specific guidelines will be given as needed during non-uniform dress days."
+        }
+      ]
+    },
+    {
+      "id": "DRESS-15",
+      "category": "Dress Code",
+      "question": "What happens after repeated uniform violations?",
+      "alternative_wording": [
+        "What happens after several dress-code violations?",
+        "What is the second uniform offense?",
+        "What happens the third time I'm dress coded?",
+        "Is there a behavior contract after four uniform offenses?",
+        "Can repeated uniform violations cause suspension?",
+        "What happens after six uniform violations?",
+        "Can dress code violations affect enrollment?",
+        "Do parents have to meet administration for repeated dress code issues?",
+        "What are the later uniform consequences?",
+        "How do repeat dress-code offenses escalate?"
+      ],
+      "short_answer": "Repeat offenses escalate beyond the first warning. The second and third offenses require changing into uniform and parent communication. The fourth adds an administration meeting and a behavior contract; the fifth may bring suspension, and the sixth brings an enrollment hold.",
+      "conditions": [
+        "At the second, third, and fourth offenses, students must change or wait for a parent to bring uniform items before returning to class.",
+        "For the sixth offense, a meeting with the Senior Administration Team may also be required. See the original sequence for the full wording."
+      ],
+      "sources": [
+        {
+          "page": 58,
+          "section": "Dress Code - Consequences and Events",
+          "kind": "text",
+          "quote": "4th Offense – Student must change into school uniform or wait for a parent to bring appropriate uniform items(s) to return to class. Parent(s) and student will meet with members of the school administration regarding the school uniform infraction, and the student will be placed on a behavior contract."
+        },
+        {
+          "page": 58,
+          "section": "Dress Code - Consequences and Events",
+          "kind": "text",
+          "quote": "5th Offense – Student may receive a suspension for non-compliance of school uniform expectations. 6th Offense – Student will be placed on an enrollment hold. Parent(s) and student may be required to meet with the Senior Administration Team."
+        },
+        {
+          "page": 58,
+          "section": "Dress Code - Consequences and Events",
+          "kind": "text",
+          "quote": "2nd Offense – Student must change into school uniform or wait for a parent to bring appropriate uniform items(s) to return to class. A communication will be sent to the parent. 3rd Offense – Student must change into school uniform or wait for a parent to bring appropriate uniform items(s) to return to class. Parent(s) will be contacted by one of the Deans of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-07",
+      "category": "Attendance",
+      "question": "Is every absence reported by a parent school approved?",
+      "alternative_wording": [
+        "Is a parent-reported absence automatically excused by school?",
+        "Is sick per parent the same as school approved?",
+        "My mom approved my absence. Is it school approved?",
+        "Do personal trips count as school-approved absences?",
+        "What's the difference between parent-reported and school-approved?",
+        "Is sleeping in considered school approved if my parent reports it?",
+        "Can a parent turn a personal absence into a school-approved one?",
+        "Does reporting an absence erase all consequences?",
+        "Are transportation problems school-approved absences?",
+        "Is a personal appointment automatically approved by the school?"
+      ],
+      "short_answer": "No. Parent reporting and school approval are different categories. Traffic, sleeping in, transportation problems, and personal appointments or trips are listed under general parent-reported absences, not school-approved absences.",
+      "conditions": [
+        "School-approved categories have their own documentation and permission requirements.",
+        "Reporting an absence does not automatically remove assessment penalties or other attendance requirements."
+      ],
+      "sources": [
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "General Absences (Parent Reported) (Traffic, Personal Appointments, Sleeping In, Sick per Parent, In-School Detention) are not school approved absences."
+        },
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "If a student has a Parent Reported Absence on the day of an assessment, the first occurrence is a warning, all other occurrences are a 15% grade reduction."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-08",
+      "category": "Attendance",
+      "question": "How do I get an absence approved for a college visit?",
+      "alternative_wording": [
+        "How many days can I miss for college tours?",
+        "Do college visits need teacher signatures?",
+        "How do I get a college tour approved?",
+        "Can I take three days for visiting universities?",
+        "Does my college counselor have to sign my visit form?",
+        "Can my parent alone approve a college visit?",
+        "What permission do I need for a campus tour?",
+        "How many college visit days are allowed per year?",
+        "I'm touring a university. How do I get the absence approved?",
+        "Do I need every teacher to sign for a college visit?"
+      ],
+      "short_answer": "College visits require permission forms signed by a parent, college counselor, and each teacher. The handbook allows three days per academic year for this purpose.",
+      "conditions": [
+        "Communicate with teachers and arrange missed work before the visit.",
+        "An on-campus college representative visit has a separate permission process."
+      ],
+      "sources": [
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "College Visits requires permission forms with signatures required from parents, college counselor and each teacher- three days per academic year are allowed for this purpose."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-09",
+      "category": "Attendance",
+      "question": "Can I miss class to meet a college representative on campus?",
+      "alternative_wording": [
+        "Can I leave class for a college rep visit?",
+        "How do I meet a college representative on campus?",
+        "When do I give my teacher a college rep form?",
+        "Where do I get the college rep permission form?",
+        "Can I miss the same class for a second college representative meeting?",
+        "Do on-campus college meetings need teacher approval?",
+        "Is two days of notice needed for a college rep visit?",
+        "Can I miss class once to see a university rep?",
+        "Who approves extra class periods for college representative visits?",
+        "Can I skip class just because a college rep is visiting?"
+      ],
+      "short_answer": "You may miss each class once for an on-campus college representative visit if the teacher approves and you use the permission form. Additional missed periods need teacher permission.",
+      "conditions": [
+        "Get the form from the College Counseling Office.",
+        "Give it to the teacher at least two days before the visit."
+      ],
+      "sources": [
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "Students can miss each class one time for an on-campus college rep visit if the teacher approves for the student to miss class and the student uses the permission form. Additional class periods may be missed but the teacher needs to grant permission. Permission forms are available in the College Counseling Office and must be given to the teacher at least two days prior to the college rep visit."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-10",
+      "category": "Attendance",
+      "question": "What should my family do before a vacation that would miss school?",
+      "alternative_wording": [
+        "Can I miss school for a family vacation?",
+        "How early should my family request time off for a trip?",
+        "Where do I get a pre-approved absence form?",
+        "Do vacations need two weeks of advance notice?",
+        "My family booked travel during school. What do we do?",
+        "Who approves a family trip absence?",
+        "Can my parents request a planned vacation absence?",
+        "How do we arrange schoolwork before a family vacation?",
+        "Is advance notice for travel the same as approval?",
+        "What is the pre-approved absence process for a family trip?"
+      ],
+      "short_answer": "Parents are expected to contact the Office of Student Life at least two weeks in advance to arrange academics and submit a pre-approved absence request.",
+      "conditions": [
+        "The handbook asks families to plan travel around the school vacation schedule.",
+        "Obtain the Pre-approved Absence form from the Office of Student Life; advance notice is not the same as automatic approval."
+      ],
+      "sources": [
+        {
+          "page": 62,
+          "section": "Attendance - Participation and Attendance",
+          "kind": "text",
+          "quote": "When it is necessary for a student to miss school, parents are expected to contact the Office of Student Life at least two weeks in advance to make the appropriate academic arrangements and submit a pre-approved absence request."
+        },
+        {
+          "page": 62,
+          "section": "Attendance - Participation and Attendance",
+          "kind": "text",
+          "quote": "Pre-Approved absence requests —Any requests will be handled through the Office of Student Life by completing a Pre-approved Absence form that may be picked up from the Office of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-11",
+      "category": "Attendance",
+      "question": "Can too many absences make me lose credit for a class?",
+      "alternative_wording": [
+        "How many absences before I lose class credit?",
+        "What happens after eighteen absences in a class?",
+        "Can excessive absences affect sports for the semester?",
+        "Do parent-reported absences count toward the absence total?",
+        "When do absences trigger a parent phone call?",
+        "What happens after five non-school-approved absences?",
+        "Does ten absences in one class trigger contact home?",
+        "Can I get no credit because I missed too many classes?",
+        "Are absence totals counted per class and semester?",
+        "Does a required class need to be retaken after losing credit?"
+      ],
+      "short_answer": "Yes. For non-school-approved absences in an individual class per semester, five trigger parent notification and ten trigger a parent phone call. At eighteen, the policy includes an administration meeting, no course credit, and possible loss of extracurricular participation for the rest of the semester.",
+      "conditions": [
+        "All absences that are not school approved count toward this total.",
+        "If a required course receives no credit, the policy calls for retaking it through one of the listed routes. The school considers situations beyond a family’s control individually."
+      ],
+      "sources": [
+        {
+          "page": 62,
+          "section": "Attendance - Participation and Attendance",
+          "kind": "text",
+          "quote": "Level 1 - 5 absences (non-school approved) within the semester results in the school notifying the parent. Level 2 – 10 absences (non-school approved) within the semester results in a parent phone call."
+        },
+        {
+          "page": 62,
+          "section": "Attendance - Participation and Attendance",
+          "kind": "text",
+          "quote": "Level 3 – 18 absences (non-school approved) within the semester results in meeting with the Academic Dean/Principal/Head of School, “no credit” to be earned for the course, and the student may not be allowed to participate in any extracurricular activities (Athletics or Performing Arts) for the remainder of the semester."
+        },
+        {
+          "page": 62,
+          "section": "Attendance - Participation and Attendance",
+          "kind": "text",
+          "quote": "Any absences that are not school approved will count toward the absence total."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-12",
+      "category": "Attendance",
+      "question": "What happens if my absence is not cleared within 72 hours?",
+      "alternative_wording": [
+        "My parent didn't report my absence within 72 hours. What happens?",
+        "Is an uncleared absence unexcused?",
+        "Can I lose assignment credit for an unreported absence?",
+        "I forgot to clear an absence for three days. What now?",
+        "Can I go back to class with an uncleared absence?",
+        "Does an absence become unreported after 72 hours?",
+        "Who do I see about a late absence report?",
+        "Can an unreported absence have a consequence?",
+        "What if my family never tells Attendance I was out?",
+        "Is there a deadline to clear a missed school day?"
+      ],
+      "short_answer": "An absence not reported within 72 hours is treated as unreported and unexcused. It can reduce credit for assignments or assessments, and a consequence may be assigned.",
+      "conditions": [
+        "Have a parent or guardian communicate with the Attendance Office immediately.",
+        "The handbook says students with uncleared absences must clear them with the attendance officer before re-entering class."
+      ],
+      "sources": [
+        {
+          "page": 59,
+          "section": "Attendance",
+          "kind": "text",
+          "quote": "If a student/parent does not clear an absence within 72 hours, the student will be asked to clear the absence with the attendance officer immediately before re-entering a class."
+        },
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "Unreported Absences (after 72 hours): Students may not receive credit for assignments/assessments and a consequence may be assigned."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-13",
+      "category": "Attendance",
+      "question": "Where can I check my attendance and tardy records?",
+      "alternative_wording": [
+        "Where do I see my tardies?",
+        "How do I check attendance in AXIS?",
+        "Can my parents view my absence records?",
+        "Where is Student Records?",
+        "How do I know how many times I've been late?",
+        "Where are excused and unexcused tardies listed?",
+        "Can I look up a 10-plus-minute tardy?",
+        "Where do I check if an absence was cleared?",
+        "Am I supposed to keep track of my own tardies?",
+        "How can I see my attendance history?"
+      ],
+      "short_answer": "Students and parents can check attendance through AXIS. The handbook identifies Student Records as the place to account for tardies and absences.",
+      "conditions": [
+        "Students are expected to keep track of their tardies.",
+        "Contact the Attendance Office about an incorrect or uncleared entry; checking the record does not itself clear an absence."
+      ],
+      "sources": [
+        {
+          "page": 63,
+          "section": "Attendance - Tardiness",
+          "kind": "text",
+          "quote": "Parents and students may check “Student Records” to account for their attendance records"
+        },
+        {
+          "page": 61,
+          "section": "Attendance - All Day Absences",
+          "kind": "text",
+          "quote": "It is the responsibility of the student and parent(s) to check attendance through the school’s Learning Management System (AXIS)."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-14",
+      "category": "Attendance",
+      "question": "Does skipping a class count as truancy if I stay on campus?",
+      "alternative_wording": [
+        "If I stay on campus but skip a class is it truancy?",
+        "Can I hang out on campus instead of going to class?",
+        "Is accidentally missing class considered truancy?",
+        "Does skipping count if I never leave the school?",
+        "I was at school but not in class. Does that count as skipping?",
+        "Is going to the wrong place instead of my required class a problem?",
+        "Can I avoid truancy by staying inside campus?",
+        "What does on-campus truancy mean?",
+        "Does intentionally missing one class count as truancy?",
+        "Is skipping a class an unexcused absence?"
+      ],
+      "short_answer": "Yes. The truancy policy includes being on campus but not in the expected classroom. Skipping class intentionally or by accident is listed as truancy.",
+      "conditions": [
+        "Academic and behavioral consequences may both apply.",
+        "Being on school grounds does not replace attending your required class."
+      ],
+      "sources": [
+        {
+          "page": 64,
+          "section": "Attendance - Release and Truancy",
+          "kind": "text",
+          "quote": "This includes being on-campus, but not in the expected classroom."
+        },
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "Skipping classes on purpose or by accident is considered a TRUANCY and a consequence will be assigned."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-15",
+      "category": "Attendance",
+      "question": "Can I leave campus for lunch?",
+      "alternative_wording": [
+        "Can I leave campus for lunch?",
+        "Do seniors need a lunch permit?",
+        "Can juniors go off campus at lunch?",
+        "Does my parent calling let me leave at lunchtime?",
+        "Who authorizes off-campus lunch privileges?",
+        "Can freshmen leave school for lunch?",
+        "Where do seniors exit for off-campus lunch?",
+        "Can I sign out at reception for lunch?",
+        "Is lunch off campus a privilege for every senior?",
+        "Do I need Deans of Student Life approval for off-campus lunch?"
+      ],
+      "short_answer": "The school has a closed-campus policy. Seniors may be allowed to leave for lunch only with an off-campus lunch permit authorized by the Deans of Student Life.",
+      "conditions": [
+        "The cited lunch permission is for seniors; it does not grant the same privilege to every grade.",
+        "Juniors and seniors who have approved off-campus privileges must exit through the guard kiosk, not the front reception desk. A parent phone call does not authorize lunchtime release."
+      ],
+      "sources": [
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "Seniors, with an off-campus lunch permit authorized by the Deans of Student Life, may be allowed to go off campus during the lunch period. Juniors and seniors must exit through the guard kiosk and not through the front reception desk."
+        },
+        {
+          "page": 64,
+          "section": "Attendance - Release and Truancy",
+          "kind": "text",
+          "quote": "Students will not be released during lunch with a parent phone call."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-16",
+      "category": "Attendance",
+      "question": "Can juniors or seniors arrive late or leave after their last required class?",
+      "alternative_wording": [
+        "Can I leave when my last class ends?",
+        "Can I come late if I have a free first period?",
+        "Do juniors need early-release forms?",
+        "Can seniors leave during a free last period?",
+        "Do I need my ID and schedule to leave for the day?",
+        "What exit do I use for approved early release?",
+        "Can I leave campus just because I have an open period?",
+        "How do late-arrival privileges work?",
+        "Does a senior need approval for leaving early?",
+        "Is a free period automatic permission to leave school?"
+      ],
+      "short_answer": "Seniors and juniors may sign out and leave after their last requirement only with signed and approved late-arrival or early-release forms. A free period does not create automatic permission.",
+      "conditions": [
+        "The campus is otherwise closed until the end of the school day, subject to approved special circumstances.",
+        "Use the guard kiosk. Juniors and seniors leaving when done for the day must have their ID and schedule."
+      ],
+      "sources": [
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "Seniors and juniors, with signed and approved late arrival/early release forms, can sign out and leave campus after their last requirement of the day."
+        },
+        {
+          "page": 64,
+          "section": "Attendance - Release and Truancy",
+          "kind": "text",
+          "quote": "Juniors and seniors who are done for the day must exit through the lower guard kiosk with their ID and schedule."
+        },
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "Closed Campus — Students are not allowed to arrive late or leave campus until the end of the school day except for special circumstances, including off-campus privilege, as approved by the Deans of Student Life."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-17",
+      "category": "Attendance",
+      "question": "What do I do if I feel ill and need the nurse or want to go home?",
+      "alternative_wording": [
+        "I feel sick in class. Can I go to the nurse?",
+        "Do I need a pass for the Health Office?",
+        "Can I go straight to the nurse during lunch?",
+        "Can I leave school sick without seeing the nurse?",
+        "How do I get permission to go home because I feel ill?",
+        "Who gives me a pass to see the nurse?",
+        "Can I visit the Health Office during passing period?",
+        "Do emergencies need a normal nurse pass?",
+        "What is the school procedure if I feel unwell?",
+        "Can I call my parent to take me home instead of seeing the nurse?"
+      ],
+      "short_answer": "Ask your teacher for a pass to the Health Office. Unless it is a medical emergency, you need a teacher or dean’s pass to see the nurse. To leave because of illness, you must first be seen by the nurse and obtain a nurse’s pass.",
+      "conditions": [
+        "During passing periods or lunch, report to your next teacher or the Attendance Office to request a pass.",
+        "This describes school procedure, not medical advice. Seek immediate adult help in an emergency."
+      ],
+      "sources": [
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "All students must have a pass from a teacher/dean to be seen by the nurse unless it is a medical emergency."
+        },
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "No student may leave school due to an illness without first being seen by the nurse and obtaining a pass from the nurse."
+        },
+        {
+          "page": 65,
+          "section": "Attendance - Off-Campus Policy and Health Office",
+          "kind": "text",
+          "quote": "Except in emergency situations, students should not go to the health office during passing periods or lunch without first reporting to the next period teacher or the attendance office to request a student pass."
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-18",
+      "category": "Attendance",
+      "question": "What should student-athletes do about work missed for an approved game or trip?",
+      "alternative_wording": [
+        "When do athletes turn in work before an away game?",
+        "Do I arrange tests before missing class for a sport?",
+        "Can I wait until after a school game to sort out assignments?",
+        "Do field trips need signatures from teachers?",
+        "What happens if I miss my makeup appointment with a teacher?",
+        "Who arranges missed assessments for student-athletes?",
+        "What should I do about schoolwork before a school trip?",
+        "Do I need to communicate with teachers before an approved activity?",
+        "Is missing a teacher appointment an unexcused absence?",
+        "How do athletes handle assignments for an approved absence?"
+      ],
+      "short_answer": "Student-athletes are expected to arrange missed assessments and turn in assignments before the absence. Students planning approved activities should communicate with teachers and keep agreed appointments.",
+      "conditions": [
+        "School-approved games, field trips, and activities require signatures from each teacher.",
+        "Missing a student-teacher appointment is treated as an unexcused absence."
+      ],
+      "sources": [
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "Student-athletes are expected to arrange for any missed assessments and/or turn in assignments before the absence."
+        },
+        {
+          "page": 60,
+          "section": "Attendance - School Approved and General Absences",
+          "kind": "text",
+          "quote": "It is the responsibility of the student to schedule with the teacher and hold to the appointment time and day. Missing a student-teacher appointment is the equivalent of an unexcused absence."
+        },
+        {
+          "page": 59,
+          "section": "Attendance",
+          "kind": "text",
+          "quote": "School approved athletic games, field trips/activities (requires signatures from each teacher)"
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-19",
+      "category": "Attendance",
+      "question": "Am I tardy if I arrive less than fifteen minutes late to class?",
+      "alternative_wording": [
+        "I'm 5 minutes late to class. Is that a tardy?",
+        "Is arriving 10 minutes late a tardy?",
+        "What if I get to class 2 minutes late?",
+        "Is being less than fifteen minutes late considered tardy?",
+        "I arrived 14 minutes late. Am I tardy?",
+        "Does a late arrival under fifteen minutes count as tardy?",
+        "How is a 3-minute late arrival recorded?",
+        "Am I tardy after arriving seven minutes late?",
+        "What does arriving less than fifteen minutes late count as?",
+        "Can a short tardy still be unexcused?"
+      ],
+      "short_answer": "For an arrival less than fifteen minutes late to a class, the tardy rule applies. Being tardy can still have consequences; it does not mean the late arrival is excused.",
+      "conditions": [
+        "Traffic, transportation issues, car problems, sleeping in, and schedule mix-ups are listed as unexcused tardy reasons.",
+        "The wording for exactly fifteen minutes conflicts elsewhere in the handbook and still needs school clarification."
+      ],
+      "sources": [
+        {
+          "page": 63,
+          "section": "Attendance - Tardiness",
+          "kind": "text",
+          "quote": "Class tardy is defined as being up to fifteen (15) minutes late to a specific class. A student is considered absent if they are more than fifteen (15) minutes late to a class."
+        },
+        {
+          "page": 63,
+          "section": "Attendance - Tardiness",
+          "kind": "text",
+          "quote": "Unexcused tardies include: sleeping in transportation/carpool issues car problems traffic schedule mix-up"
+        }
+      ]
+    },
+    {
+      "id": "ATTENDANCE-20",
+      "category": "Attendance",
+      "question": "How is arriving more than fifteen minutes late to class recorded?",
+      "alternative_wording": [
+        "I'm 20 minutes late to class. Am I absent?",
+        "What if I arrive more than fifteen minutes late?",
+        "Does being 30 minutes late count as an absence?",
+        "I missed the first 25 minutes of class. How is that recorded?",
+        "Is arriving 16 minutes late an absence?",
+        "What if I'm over fifteen minutes late to a class?",
+        "Will the teacher mark me absent for a 40-minute late arrival?",
+        "Can Attendance mark a long late arrival parent reported?",
+        "How is arriving beyond fifteen minutes late recorded?",
+        "Does being more than fifteen minutes late mean absent rather than tardy?"
+      ],
+      "short_answer": "Arriving more than fifteen minutes late to a class is counted as an absence. The teacher records it as unexcused unless the Attendance Office determines that it is parent reported.",
+      "conditions": [
+        "A parent-reported absence is not automatically a school-approved absence.",
+        "The exact fifteen-minute boundary is still awaiting school clarification."
+      ],
+      "sources": [
+        {
+          "page": 63,
+          "section": "Attendance - Tardiness",
+          "kind": "text",
+          "quote": "A student is considered absent if they are more than fifteen (15) minutes late to a class."
+        },
+        {
+          "page": 63,
+          "section": "Attendance - Tardiness",
+          "kind": "text",
+          "quote": "Tardy- Beyond 15 Minutes: The student will be marked “absence unexcused” by their teacher unless the attendance office determines that the absence is parent reported (see absence policy)."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-07",
+      "category": "Phones and Devices",
+      "question": "Can I use a VPN or proxy to get around school internet restrictions?",
+      "alternative_wording": [
+        "Can I use a VPN on school Wi-Fi?",
+        "Is a proxy allowed to open blocked sites?",
+        "Can I bypass the school's internet filter?",
+        "Are VPNs allowed on my personal laptop at school?",
+        "Can I install a VPN for school activities?",
+        "Can I share a VPN with a friend?",
+        "Is trying to use a VPN against the technology rules?",
+        "Can I get around blocked websites with another service?",
+        "Does the VPN ban apply to personal devices?",
+        "Are filter-bypassing tools prohibited?"
+      ],
+      "short_answer": "No. The handbook prohibits VPNs and similar technology used to bypass school network security, filters, monitoring, or access restrictions. It also prohibits proxy websites used to access blocked sites.",
+      "conditions": [
+        "The VPN rule includes school-owned and personal devices while connected to school resources or participating in school activities.",
+        "Attempting to use, installing, sharing, or facilitating these tools can lead to disciplinary action."
+      ],
+      "sources": [
+        {
+          "page": 70,
+          "section": "Acceptable Use of Technology - VPNs and Consequences",
+          "kind": "text",
+          "quote": "The use of Virtual Private Networks (VPNs) or any other technology designed to bypass, circumvent, or interfere with the school’s network security systems, internet filters, monitoring tools, or access restrictions is strictly prohibited on all school-owned and personal devices while connected to school resources or participating in school activities."
+        },
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Using a proxy web site to access other sites that are blocked or filtered."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-08",
+      "category": "Phones and Devices",
+      "question": "Can I record classroom audio or video?",
+      "alternative_wording": [
+        "Can I record the teacher's lecture?",
+        "Can I make an audio recording in class?",
+        "Do I need permission to film a lesson?",
+        "Can I video record my classroom?",
+        "Is it okay to record class for reviewing notes?",
+        "Can I secretly record a lesson?",
+        "Who approves classroom audio recordings?",
+        "Can my tablet record a lecture?",
+        "Is filming in class allowed without the teacher saying yes?",
+        "Can I record classroom video if the teacher gives permission?"
+      ],
+      "short_answer": "Recording classroom audio or video requires the teacher’s permission.",
+      "conditions": [
+        "Laptop or tablet use also remains at the teacher’s discretion.",
+        "You must not record, store, or transmit sensitive quiz or test information from any device."
+      ],
+      "sources": [
+        {
+          "page": 39,
+          "section": "Academic Integrity - Devices",
+          "kind": "text",
+          "quote": "Students are not allowed to record any video or audio in the classroom unless granted permission by the teacher."
+        },
+        {
+          "page": 39,
+          "section": "Academic Integrity - Devices",
+          "kind": "text",
+          "quote": "At no time may a student record, store or transmit any sensitive information (such as from a quiz or test) from any device."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-09",
+      "category": "Phones and Devices",
+      "question": "Can I photograph a test or save quiz questions on my device?",
+      "alternative_wording": [
+        "Can I take a picture of a quiz?",
+        "Can I save test questions on my laptop?",
+        "Can I record exam content?",
+        "Can I send a photo of a test?",
+        "Can I store assessment questions on a device?",
+        "Is screenshotting a quiz allowed?",
+        "Can I use my phone to photograph a test paper?",
+        "Can I record sensitive test information?",
+        "Can I transmit exam questions from my tablet?",
+        "Does permission to record a lesson also cover a test?"
+      ],
+      "short_answer": "No. The handbook prohibits recording, storing, or transmitting sensitive information such as quiz or test content from any device.",
+      "conditions": [
+        "The rule covers storing or sharing the content as well as making a recording.",
+        "Teacher permission to record an ordinary lesson is not a blanket exception for assessment content."
+      ],
+      "sources": [
+        {
+          "page": 39,
+          "section": "Academic Integrity - Devices",
+          "kind": "text",
+          "quote": "At no time may a student record, store or transmit any sensitive information (such as from a quiz or test) from any device."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-10",
+      "category": "Phones and Devices",
+      "question": "Can I play games on a school computer?",
+      "alternative_wording": [
+        "Can I play games on a school computer?",
+        "Is gaming allowed on the school's computers?",
+        "Can I play Minecraft on a school computer?",
+        "Can I play browser games on a school-owned computer?",
+        "Are all games prohibited on school computers?",
+        "Can I play Roblox on a school computer?",
+        "Can I use a school computer for a quick game?",
+        "Is gaming okay on school computers when classwork is finished?",
+        "Can I use the school's computer to play Fortnite?",
+        "What does the handbook say about games on school computers?"
+      ],
+      "short_answer": "Playing any games on school computers is listed as an unacceptable use.",
+      "conditions": [
+        "The rule specifically names school computers. It does not establish a complete rule for every possible personal-device or off-campus situation.",
+        "Personal laptops used in class must be doing approved classwork at the teacher’s discretion."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Acceptable Use of Technology - Personal Electronic Devices",
+          "kind": "text",
+          "quote": "Playing any games on school computers."
+        },
+        {
+          "page": 69,
+          "section": "Acceptable Use of Technology - Personal Electronic Devices",
+          "kind": "text",
+          "quote": "A teacher may ask a student to put the laptop away at any time if the student is using it for purposes other than approved class work."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-11",
+      "category": "Phones and Devices",
+      "question": "Can I install software, browser extensions, or plugins myself at school?",
+      "alternative_wording": [
+        "Can I install a browser extension?",
+        "Can I download software on school technology?",
+        "Who installs school computer programs?",
+        "Do I need IT to install a plugin?",
+        "Can I add code or software myself?",
+        "Can I install an app without the IT department?",
+        "Are browser plugins supposed to go through IT?",
+        "Can I change installed software on a school computer?",
+        "Who approves downloading extensions?",
+        "Do software downloads have to go through the IT department?"
+      ],
+      "short_answer": "The technology policy says downloading or installing software, plugins, extensions, or other code can only be done through the I.T. department.",
+      "conditions": [
+        "Ask I.T. before changing the school’s configured technology.",
+        "The policy also prohibits damaging, modifying, or abusing hardware or software."
+      ],
+      "sources": [
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Downloading and/or installing any software, plugins, extensions, or other code can only be done through the I.T. department."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-12",
+      "category": "Phones and Devices",
+      "question": "Can I share my login or use another student’s account?",
+      "alternative_wording": [
+        "Can I share my password with a friend?",
+        "Can I use someone else's school account?",
+        "Can I give another student my login?",
+        "Can I guess my friend's password?",
+        "Can I ask someone to let me use their username?",
+        "Can I share someone else's password?",
+        "Are shared logins allowed?",
+        "Can a classmate use my account for schoolwork?",
+        "Can I copy another user's files without asking?",
+        "Can I access someone else's files on school technology?"
+      ],
+      "short_answer": "No. Giving someone your username or password, asking to use someone else’s login, and trying to guess another person’s credentials are prohibited.",
+      "conditions": [
+        "You also may not obtain or share other people’s passwords.",
+        "Do not access, modify, or copy another user’s files or data without consent."
+      ],
+      "sources": [
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Giving someone else yours or anyone else’s username and/or password, asking someone else to use their username and password or attempting to guess someone else’s username and password is prohibited."
+        },
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Do not modify or copy any files/data of other users without their consent."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-13",
+      "category": "Phones and Devices",
+      "question": "Which Wi-Fi network should students use?",
+      "alternative_wording": [
+        "Which school Wi-Fi do I connect to?",
+        "What is the student network called?",
+        "Is STUDENT-BYOD the required network?",
+        "Which wireless network should my laptop use?",
+        "Where is the High School Technology Handbook?",
+        "Where do I find the Tech Resource Page in AXIS?",
+        "What network is for student devices?",
+        "Where are the BYOD instructions?",
+        "Which school network should I use for my tablet?",
+        "What does the handbook say the student Wi-Fi name is?"
+      ],
+      "short_answer": "Students must use the STUDENT-BYOD network.",
+      "conditions": [
+        "The Technology Handbook: High School is on AXIS under Resource Board, then Tech Resource Page.",
+        "This handbook does not provide a Wi-Fi password or connection troubleshooting steps. Ask I.T. for connection help."
+      ],
+      "sources": [
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Students must use the STUDENT-BYOD network and must not violate the Technology Handbook: High School as listed on the Tech Resource page on AXIS (AXIS —> Resource Board —> Tech Resource Page)."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-14",
+      "category": "Phones and Devices",
+      "question": "Can I make an AI image, video, or voice imitation of a teacher or student?",
+      "alternative_wording": [
+        "Can I make an AI video of a teacher?",
+        "Can I clone a classmate's voice?",
+        "Can I generate an AI picture of another student?",
+        "Are deepfakes of staff allowed?",
+        "Can I make a fake teacher voice as a joke?",
+        "Can AI alter a video of someone at school?",
+        "Can I use AI to edit another student's photo?",
+        "Can I make an AI impersonation of a faculty member?",
+        "Are AI-generated student images prohibited?",
+        "Does saying it's a joke make an AI teacher video okay?"
+      ],
+      "short_answer": "Using AI to generate or alter videos, images, or audio of staff, faculty, or other students is listed as an unacceptable use.",
+      "conditions": [
+        "This is separate from teacher-approved use of AI for an assignment.",
+        "Do not assume an imitation is permitted because it is a joke."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Acceptable Use of Technology - Personal Electronic Devices",
+          "kind": "text",
+          "quote": "Using AI to generate or alter any videos, images, and audio of any staff, faculty or other students."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-15",
+      "category": "Phones and Devices",
+      "question": "What happens if my phone is confiscated more than once?",
+      "alternative_wording": [
+        "What happens after a second phone violation?",
+        "My phone was taken again. What happens now?",
+        "Is there a behavior contract for four phone offenses?",
+        "Do five phone offenses cause suspension?",
+        "What happens after six cell phone violations?",
+        "Can repeated phone violations affect enrollment?",
+        "Will my parent be contacted after the second confiscation?",
+        "What happens the third time my phone is taken?",
+        "Can seniors lose privileges for repeated phone violations?",
+        "How do phone consequences escalate after the first offense?"
+      ],
+      "short_answer": "The second and third offenses include surrendering the device, pickup after 3:15 p.m., and parent communication. The fourth adds an administration meeting and behavior contract. The fifth brings suspension, and the sixth brings an enrollment hold.",
+      "conditions": [
+        "Each offense is recorded in AXIS.",
+        "At the sixth offense, seniors lose senior privileges as described in the policy; the family may schedule a senior-administration meeting about future enrollment."
+      ],
+      "sources": [
+        {
+          "page": 70,
+          "section": "Acceptable Use of Technology - VPNs and Consequences",
+          "kind": "text",
+          "quote": "2nd offense – The device will be surrendered, and the student may pick up their device after 3:15pm from the Office of Student Life. Communication will go out to the parents/guardian regarding the infraction."
+        },
+        {
+          "page": 70,
+          "section": "Acceptable Use of Technology - VPNs and Consequences",
+          "kind": "text",
+          "quote": "3rd offense – The device will be surrendered, and the student can pick up their device after 3:15pm from the Office of Student Life. Parent(s) will be contacted by one of the Deans of Student Life."
+        },
+        {
+          "page": 70,
+          "section": "Acceptable Use of Technology - VPNs and Consequences",
+          "kind": "text",
+          "quote": "4th offense – The device will be surrendered, and the student can pick up their device after 3:15pm from the Office of Student Life. Parent(s) and student will meet with members of the school administration regarding the device infractions, and the student will be placed on a behavior contract. 5th offense – Student will receive a suspension for non-compliance with the technology policy."
+        },
+        {
+          "page": 71,
+          "section": "Technology Consequences",
+          "kind": "text",
+          "quote": "6th offense – Student will be placed on an enrollment hold (seniors will lose senior privileges which may include, but are not limited to: off-campus privileges, grad night, senior prom, senior lounges, graduation)."
+        }
+      ]
+    },
+    {
+      "id": "PHONE-16",
+      "category": "Phones and Devices",
+      "question": "Can I shop online or sell things using school computers or the school network?",
+      "alternative_wording": [
+        "Can I buy things on school Wi-Fi?",
+        "Can I sell products using a school computer?",
+        "Can I shop online on school computers?",
+        "Can I order something using the school's internet?",
+        "Can I run a business on school technology?",
+        "Can I buy a product through the school network?",
+        "Are commercial activities allowed on school computers?",
+        "Can I sell services using school internet access?",
+        "Can I use school computers to purchase things?",
+        "Does the no-buying rule apply to the school's network too?"
+      ],
+      "short_answer": "No. Students may not buy or sell anything using school computers, the school network, or the internet connection provided by the school.",
+      "conditions": [
+        "School computers must not be used for commercial purposes such as offering products or services."
+      ],
+      "sources": [
+        {
+          "page": 69,
+          "section": "Acceptable Use of Technology - Personal Electronic Devices",
+          "kind": "text",
+          "quote": "Students are not allowed to buy or sell anything using school computers or the school’s network or the internet connection provided by the school."
+        },
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "The school computers should not be used for commercial purposes defined as “offering or providing products or services.”"
+        }
+      ]
+    },
+    {
+      "id": "PHONE-17",
+      "category": "Phones and Devices",
+      "question": "Are school email, network activity, and files on school systems private?",
+      "alternative_wording": [
+        "Is my school email private?",
+        "Can the school review internet use?",
+        "Are files on school servers private?",
+        "Does the school reserve the right to inspect devices used on campus?",
+        "Should I expect school network activity to be private?",
+        "Can the school review files stored on school computers?",
+        "What does the handbook say about email privacy?",
+        "Are school server files confidential from network administrators?",
+        "Does the handbook allow school review of on-campus electronic devices?",
+        "What is the school's stated technology privacy policy?"
+      ],
+      "short_answer": "The handbook says users should not expect files on school servers, internet use, or email communications to be private. It reserves school review rights over the listed systems and devices in the circumstances described by the policy.",
+      "conditions": [
+        "Read the full passage for the scope of the school’s stated policy.",
+        "This summarizes the handbook and does not determine legal rights or whether a particular inspection is lawful."
+      ],
+      "sources": [
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Since network administrators must maintain system integrity and ensure responsible use, users should not expect files stored on the school’s servers, Internet use or email communications to be private."
+        },
+        {
+          "page": 68,
+          "section": "Acceptable Use of Technology",
+          "kind": "text",
+          "quote": "Oaks Christian School reserves the right to review, in its sole and absolute discretion, any files stored on the school’s computers or servers, internet use or email communications or any texts, message, pictures or other material contained on any computer, phone or any other electronic device or electronic storage device that is either used on school premises or is in the possession or control of a student while on the school premises."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-07",
+      "category": "Academic Integrity and AI",
+      "question": "Can I borrow or share a calculator during a test or quiz?",
+      "alternative_wording": [
+        "Can I share a calculator during a quiz?",
+        "Can I borrow a calculator in an exam?",
+        "Can my friend pass me their calculator during a test?",
+        "Can students share devices on assessments?",
+        "Is calculator sharing allowed during examinations?",
+        "What if I forgot my calculator for a quiz?",
+        "Can we swap calculators in the middle of a test?",
+        "Can I let a classmate use my calculator on an exam?",
+        "Does the device-sharing ban apply to quizzes too?",
+        "Are calculator rules different from teacher permission to use one?"
+      ],
+      "short_answer": "No. Calculators and other devices must not be shared between students on quizzes, tests, or examinations.",
+      "conditions": [
+        "Bring any device your teacher requires before the assessment.",
+        "This sharing rule is separate from whether a particular assessment permits calculator use."
+      ],
+      "sources": [
+        {
+          "page": 39,
+          "section": "Academic Integrity - Devices",
+          "kind": "text",
+          "quote": "At no time may calculators (or other devices) be shared between students on quizzes, tests, or examinations."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-08",
+      "category": "Academic Integrity and AI",
+      "question": "Can I give a friend hints or answers during a quiz or test?",
+      "alternative_wording": [
+        "Can I give someone a hint during a test?",
+        "Can I whisper an answer on a quiz?",
+        "Can I signal the correct answer to a friend?",
+        "Can I receive help from another student during an assessment?",
+        "Is showing my test answer to someone cheating?",
+        "Does helping a friend during a test count as academic dishonesty?",
+        "Can I write a hint for someone during a quiz?",
+        "Can I ask a classmate for just one test answer?",
+        "Are visual signals during an exam allowed?",
+        "Can friends help each other on a quiz without permission?"
+      ],
+      "short_answer": "No. Receiving assessment answers is listed as cheating, and verbally, visually, or in writing helping another person during an assessment is listed as facilitating academic dishonesty.",
+      "conditions": [
+        "This includes a hint or signal, not just handing over a completed paper.",
+        "Only use materials and help that the teacher has authorized for the assessment."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Copying or receiving an answer on an assessment (e.g., test, quiz, or any other coursework that is evaluated by your teacher)."
+        },
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Verbally, visually, or in writing helping another person during an assessment."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-09",
+      "category": "Academic Integrity and AI",
+      "question": "Can I share a test, its questions, or an old completed assignment with another student?",
+      "alternative_wording": [
+        "Can I tell a friend what's on tomorrow's test?",
+        "Can I send someone a copy of a test before they take it?",
+        "Can I share last year's completed assignment?",
+        "Can I give a younger student an old assessment?",
+        "Is discussing test questions before another class takes it allowed?",
+        "Can I accept a leaked quiz?",
+        "Is sharing specific test content prohibited?",
+        "Can I give someone an exam from a previous semester?",
+        "Can I distribute a copy of an upcoming assessment?",
+        "Does sharing knowledge of a test count even without sending the paper?"
+      ],
+      "short_answer": "Accepting, sharing, or distributing an assessment or knowledge of it before it is given is prohibited. Providing another student with an assessment or completed assignment from a previous semester or year is also listed as facilitating academic dishonesty.",
+      "conditions": [
+        "The rule covers sharing knowledge of assessment content as well as the actual paper.",
+        "Ask your teacher what study materials and collaboration are authorized."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Accepting, sharing, or distributing a copy of an assessment before it is given. Accepting, sharing, or distributing knowledge of an assessment before it is given. Providing a student with an assessment or completed assignment from a previous semester or year."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-10",
+      "category": "Academic Integrity and AI",
+      "question": "Can I invent lab data or change results to fit my conclusion?",
+      "alternative_wording": [
+        "Can I make up lab results?",
+        "Can I change data to fit my hypothesis?",
+        "Is inventing survey results fabrication?",
+        "Can I use another student's experimental data as mine?",
+        "Can I fake a missing measurement?",
+        "Can I adjust research data to make the conclusion stronger?",
+        "What if my experiment failed and I need results?",
+        "Is reporting data I didn't actually get academic dishonesty?",
+        "Can I exaggerate survey findings?",
+        "Does changing lab data count as cheating?"
+      ],
+      "short_answer": "No. Exaggerating or falsifying research data or survey results is fabrication. Presenting data that does not reflect actual results or modifying it to support a conclusion more strongly is prohibited.",
+      "conditions": [
+        "Data collected or generated by another person must not be presented as your own lab or classroom results.",
+        "Ask your teacher how to handle a failed experiment or missing measurement."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Fabrication is the exaggeration or falsification of research data or survey results."
+        },
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Presenting data that does not accurately reflect your actual results in any portion of a report related to a laboratory or classroom activity. Creating or modifying data to support any interpretations or conclusions more strongly in any portion of a report related to a laboratory or classroom activity."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-11",
+      "category": "Academic Integrity and AI",
+      "question": "Can I put my name on a group project when I did little or none of the work?",
+      "alternative_wording": [
+        "Can I put my name on a project I didn't help with?",
+        "Can I get credit when my group did all the work?",
+        "Is taking group-project credit without contributing plagiarism?",
+        "What if everyone else did most of my group assignment?",
+        "Can I claim a group project without doing my share?",
+        "Is my name on a project enough if I didn't contribute?",
+        "Can I use other group members' work as my contribution?",
+        "Does taking credit for a group's work break academic integrity?",
+        "Can I submit a group project when others did almost everything?",
+        "What does the handbook say about unearned group project credit?"
+      ],
+      "short_answer": "The handbook lists putting your name on a group project when others did most or all of the work as plagiarism.",
+      "conditions": [
+        "Explain contribution problems to the teacher rather than claiming work you did not do.",
+        "Follow the assignment’s actual collaboration requirements."
+      ],
+      "sources": [
+        {
+          "page": 36,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Putting your name on a group project in which others in the group have done most or all the work."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-12",
+      "category": "Academic Integrity and AI",
+      "question": "Can someone else write all or part of my paper?",
+      "alternative_wording": [
+        "Can someone else write my essay?",
+        "Can I use a paper my friend wrote?",
+        "Can I buy an essay and turn it in?",
+        "Can my parent write part of my assignment?",
+        "Can a tutor write a section of my paper?",
+        "Is using part of another person's paper cheating?",
+        "Can I submit an essay written for me?",
+        "Can another student do my written work?",
+        "Does it matter if only part of the paper is someone else's writing?",
+        "Can I get someone to write a paragraph for my submission?"
+      ],
+      "short_answer": "Using a paper written in whole or in part by another person is listed as cheating.",
+      "conditions": [
+        "Teacher-authorized feedback and someone else writing your submission are different activities. Ask your teacher what help is allowed.",
+        "Credit sources and follow the assignment’s authorship requirements."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Using a paper, in whole or part, written by another person."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-13",
+      "category": "Academic Integrity and AI",
+      "question": "Can I change a graded answer and ask the teacher to correct my grade?",
+      "alternative_wording": [
+        "Can I change a test answer after it's graded and ask for points?",
+        "Can I fix my graded answer and say it was marked wrong?",
+        "Is altering a graded quiz to request a regrade cheating?",
+        "Can I erase my old answer before asking about my grade?",
+        "Can I claim a grading mistake after changing the paper?",
+        "Can I edit an answer and tell the teacher it was always there?",
+        "What does the handbook say about changing graded assessments?",
+        "Is it dishonest to modify a returned test for more credit?",
+        "Can I add an answer to a marked test and request points?",
+        "Can I change a graded response before a grade correction request?"
+      ],
+      "short_answer": "Changing an answer on a graded assessment and then claiming the teacher made a grading error is listed as cheating.",
+      "conditions": [
+        "If you believe a grade is incorrect, discuss the original work honestly with the teacher."
+      ],
+      "sources": [
+        {
+          "page": 37,
+          "section": "Academic Integrity",
+          "kind": "text",
+          "quote": "Changing an answer on a graded assessment and then claiming the teacher made a grading error."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-14",
+      "category": "Academic Integrity and AI",
+      "question": "What happens if a teacher suspects cheating or plagiarism?",
+      "alternative_wording": [
+        "What happens if a teacher thinks I cheated?",
+        "What is the process for suspected plagiarism?",
+        "Does the teacher talk to me before reporting academic dishonesty?",
+        "Who investigates an academic integrity concern?",
+        "Does suspicion automatically mean I violated the code?",
+        "Who gets the evidence after a teacher suspects cheating?",
+        "What does the Senior Academic Dean do after a reported violation?",
+        "Can I explain my work if I'm accused of cheating?",
+        "What happens during an academic-integrity investigation?",
+        "Does the teacher evaluate my explanation before deciding there is evidence?"
+      ],
+      "short_answer": "The teacher should meet with the student, discuss the concern, and evaluate the evidence. If evidence supports a violation, the teacher sends an explanation and conversation summary to the Senior Academic Dean, who follows up and assigns appropriate consequences.",
+      "conditions": [
+        "A suspicion is evaluated; it is not itself the final determination.",
+        "Provide an honest explanation of your work and follow the school’s process."
+      ],
+      "sources": [
+        {
+          "page": 38,
+          "section": "Academic Integrity - Procedure and Consequences",
+          "kind": "text",
+          "quote": "If a faculty member suspects a student dishonesty, s/he should first meet with the student, discuss the suspicions, and evaluate the evidence to see if there is some acceptable explanation for the apparent violation. If there is evidence of a violation, the faculty member will provide the Senior Academic Dean a detailed explanation of the offense and a summary of the conversation with the student. The Senior Academic Dean will follow-up with the student and assign appropriate consequeces."
+        }
+      ]
+    },
+    {
+      "id": "INTEGRITY-15",
+      "category": "Academic Integrity and AI",
+      "question": "What are the Level One consequences for an academic-integrity violation?",
+      "alternative_wording": [
+        "What are Level One cheating consequences?",
+        "Can I redo an assignment for full credit after an integrity violation?",
+        "Does Level One include a parent phone conference?",
+        "Do I meet the Academic Dean for a Level One violation?",
+        "Is a full-credit makeup automatic after cheating?",
+        "Who decides whether I can redo dishonest work?",
+        "Are behavior consequences part of Level One?",
+        "Does every cheating incident automatically get Level One?",
+        "What is the first listed academic-integrity consequence level?",
+        "Can the teacher allow a full-credit redo under Level One?"
+      ],
+      "short_answer": "Level One includes meeting with the Academic Dean, a parent phone conference, and a behavior consequence based on the offense. A teacher may allow the assignment to be made up for full credit, at the teacher’s discretion.",
+      "conditions": [
+        "A full-credit redo is an opportunity the teacher may grant, not an automatic entitlement.",
+        "The handbook describes multiple consequence levels; do not assume every incident will receive Level One."
+      ],
+      "sources": [
+        {
+          "page": 38,
+          "section": "Academic Integrity - Procedure and Consequences",
+          "kind": "text",
+          "quote": "Consequence: Level One Meeting Academic Dean to go over Academic Integrity policy Phone conference with parents Behavior consequence as determined by offense Opportunity to make up assignment for full credit at the discretion of the teacher"
+        }
+      ]
+    }
+  ]
+}

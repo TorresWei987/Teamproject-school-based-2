@@ -1,5 +1,13 @@
 node_modules/
 dist/
+!dist/
+dist/*
+!dist/*.html
+!dist/*.css
+!dist/*.js
+!dist/assets/
+dist/assets/*
+!dist/assets/question-bank.json
 *.tsbuildinfo
 .DS_Store
 playwright-report/

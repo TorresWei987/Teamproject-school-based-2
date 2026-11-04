@@ -1,59 +1,154 @@
-const topics = [['Dress code','What is the dress code?'],['Attendance','What do I do if I am absent or tardy?'],['Academics & grades','How are grades calculated?'],['Technology & AI','What is the policy on phones and artificial intelligence?'],['Student life','What clubs and student activities are available?'],['Safety & wellbeing','What are the campus security and safety procedures?']];
-const $ = s => document.querySelector(s);
-const escape = s => s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let activeRequest=0,controller;
+import { createQuestionSearch, escapeHtml as esc, renderAnswer } from './question-bank.js';
+import { createPassageSearch, resolveHandbookQuestion, renderPassages } from './handbook-search.js';
 
-export function renderResults(data){
-  if(data.decision==='supported'){
-    if(!Array.isArray(data.passages)||!data.passages.length)throw Error('Missing passages');
-    return '<p class="result-note">These original handbook passages address your question. Read the full policy for all conditions and exceptions.</p>'+data.passages.map(r=>{
-      if(!Number.isInteger(r.page)||r.page<1||r.page>92||typeof r.section!=='string'||typeof r.text!=='string')throw Error('Invalid passage');
-      return `<article class="result"><div class="result-top"><span>FROM YOUR HANDBOOK</span><span>PDF PAGE ${r.page}</span></div><h3>${escape(r.section)}</h3><p>${escape(r.text)}</p><a href="assets/handbook.pdf#page=${r.page}" target="_blank" rel="noopener">Read the full policy · Page ${r.page} ↗</a></article>`;
-    }).join('');
+const $ = selector => document.querySelector(selector);
+const categories = ['Dress Code', 'Attendance', 'Phones and Devices', 'Academic Integrity and AI'];
+let bank, search, passageSearch;
+const question = $('#question');
+function rows(questions) {
+  return questions.map(q => `<li><button type="button" class="question-option" data-id="${esc(q.id)}"><span><small>${esc(q.category)}</small><span>${esc(q.question)}</span></span><b aria-hidden="true">↗</b></button></li>`).join('');
+}
+function hideAnswer() { $('#results').hidden = true; $('#results').innerHTML = ''; }
+function suggest(resolution) {
+  hideAnswer();
+  $('#question-list').hidden = true;
+  const query = question.value.trim();
+  $('#suggestions').hidden = !query;
+  $('#browse').hidden = Boolean(query);
+  $('.try').hidden = Boolean(query);
+  if (!query) { $('#search-status').textContent = ''; return; }
+  const matches = resolution ? resolution.suggestions : search(query);
+  $('#suggestion-list').innerHTML = rows(matches);
+  $('#suggestion-title').textContent = matches.length ? 'Are you asking about…' : 'No clear handbook match';
+  $('#suggestion-hint').textContent = matches.length ? (resolution ? 'Choose the question closest to what you meant.' : 'Press Enter to find an answer, or choose a question below.') : 'Try different words, browse a topic, or send us your question.';
+  $('#search-status').textContent = matches.length ? `${matches.length} suggested ${matches.length === 1 ? 'question' : 'questions'}. Select one to read its answer.` : 'No close matches. Browse topics or send a question.';
+}
+function browse(category) {
+  hideAnswer();
+  question.value = '';
+  $('#suggestions').hidden = true;
+  $('.try').hidden = true;
+  $('#browse').hidden = Boolean(category);
+  $('#question-list').hidden = !category;
+  if (category) {
+    const questions = bank.questions.filter(q => q.category === category);
+    $('#category-heading').textContent = category;
+    $('#category-count').textContent = `${questions.length} questions · Choose one to see the answer`;
+    $('#category-questions').innerHTML = rows(questions);
+    $('#category-heading').focus();
+  } else { $('.try').hidden = false; $('#browse-heading').focus(); }
+  $('#search-status').textContent = '';
+}
+function selectQuestion(id, keepInput = false) {
+  const selected = bank.questions.find(q => q.id === id);
+  if (!selected) return;
+  if (!keepInput) question.value = selected.question;
+  $('#suggestions').hidden = true;
+  $('#question-list').hidden = true;
+  $('#browse').hidden = true;
+  $('.try').hidden = true;
+  $('#results').innerHTML = renderAnswer(selected);
+  $('#results').hidden = false;
+  $('#search-status').textContent = '';
+  $('#answer-heading').focus();
+}
+function answerQuestion() {
+  if (!search || !question.value.trim()) return;
+  const resolution = resolveHandbookQuestion(question.value, search, passageSearch);
+  if (resolution.decision === 'answer') selectQuestion(resolution.question.id, true);
+  else if (resolution.decision === 'passages') {
+    $('#suggestions').hidden = true;
+    $('#question-list').hidden = true;
+    $('#browse').hidden = true;
+    $('.try').hidden = true;
+    $('#results').innerHTML = renderPassages(resolution.passages);
+    $('#results').hidden = false;
+    $('#search-status').textContent = '';
+    $('#answer-heading').focus();
   }
-  if(data.decision==='clarify'){
-    const c=data.clarification;
-    if(!c||typeof c.question!=='string'||!Array.isArray(c.options)||!c.options.length)throw Error('Missing clarification');
-    return `<article class="result"><h3>${escape(c.question)}</h3><p>Pick the school situation you mean so I can check the right handbook rule.</p><div class="clarification-options">${c.options.map(o=>`<button type="button" data-question="${escape(o.question)}">${escape(o.label)}</button>`).join('')}</div></article>`;
+  else {
+    suggest(resolution);
+    if (!passageSearch) $('#suggestion-hint').textContent += ' Full handbook search could not load. Refresh the page or open the PDF using the handbook link.';
   }
-  if(data.decision==='out_of_scope')return '<article class="result"><h3>I can help with school handbook rules.</h3><p>That question is outside the student handbook. Try asking about school dress code, attendance, phone use, or academic policies.</p></article>';
-  if(data.decision==='not_covered')return '<article class="result"><h3>I couldn’t find a handbook rule that answers this.</h3><p>Missing information does not mean something is allowed. Try a more specific school-policy question, or ask your teacher or the school office.</p><a href="assets/handbook.pdf" target="_blank" rel="noopener">Open the full handbook ↗</a></article>';
-  throw Error('Invalid check result');
 }
-function busy(value){
-  $('#submit').disabled=value;
-  $('#submit').innerHTML=value?'Checking the handbook…':'Ask a question <span>↗</span>';
-  $('#results').setAttribute('aria-busy',String(value));
+function openSubmission() {
+  $('#new-question').value = question.value;
+  $('#submission-status').textContent = '';
+  $('#submission-dialog').showModal();
+  $('#new-question').focus();
 }
-function render(question,markup){
-  const area=$('#results');
-  area.hidden=false;
-  area.innerHTML=`<div class="section-heading"><h2>${escape(question)}</h2><button class="clear" id="clear" type="button">Clear</button></div>${markup}`;
-  $('#clear').onclick=()=>{activeRequest++;controller?.abort();busy(false);area.hidden=true;$('#question').value='';$('#question').focus();};
+export async function submitQuestion(form, { hostname = location.hostname, send = fetch } = {}) {
+  if (['localhost', '127.0.0.1', '[::1]'].includes(hostname)) {
+    throw Error('Question submission will be available on the published website. Your question has not been sent.');
+  }
+  const response = await send('/', {
+    method: 'POST', headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+    body: new URLSearchParams(new FormData(form)).toString(), signal: AbortSignal.timeout(15000),
+  });
+  if (!response.ok) throw Error('Your question was not sent. Please try again later.');
 }
-export async function ask(question){
-  question=question.trim();if(!question)return;
-  controller?.abort();
-  const requestId=++activeRequest,requestController=new AbortController();
-  controller=requestController;
-  $('#question').value=question;
-  render(question,'<p class="result-note" role="status">Checking whether the handbook covers your question…</p>');
-  busy(true);
-  $('#results').scrollIntoView({behavior:'smooth',block:'start'});
-  const timeout=setTimeout(()=>requestController.abort(),30000);
-  try{
-    const response=await fetch('/api/handbook-check',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question}),signal:requestController.signal});
-    if(!response.ok)throw Error('Check unavailable');
-    const data=await response.json();
-    if(requestId!==activeRequest)return;
-    render(question,renderResults(data));
-  }catch{
-    if(requestId!==activeRequest)return;
-    render(question,'<article class="result"><h3>I couldn’t check that question right now.</h3><p>Try again in a moment, or read the handbook directly.</p><a href="assets/handbook.pdf" target="_blank" rel="noopener">Open the full handbook ↗</a></article>');
-  }finally{clearTimeout(timeout);if(requestId===activeRequest)busy(false);}
+async function start() {
+  try {
+    const [bankResult, pagesResult] = await Promise.allSettled(['assets/question-bank.json', 'assets/handbook.json'].map(async url => {
+      const response = await fetch(url);
+      if (!response.ok) throw Error('Unavailable');
+      return response.json();
+    }));
+    if (bankResult.status === 'rejected') throw bankResult.reason;
+    bank = bankResult.value;
+    search = createQuestionSearch(bank.questions);
+    if (pagesResult.status === 'fulfilled' && Array.isArray(pagesResult.value)) passageSearch = createPassageSearch(pagesResult.value);
+    $('#topics').innerHTML = categories.map(c => `<button type="button" data-category="${esc(c)}">${esc(c)}</button>`).join('');
+    $('#bank-count').textContent = `${bank.questions.length} answers. Full handbook search.`;
+    question.disabled = false;
+    $('#submit').disabled = false;
+    $('#search-status').textContent = '';
+    document.querySelectorAll('[data-category], [data-query]').forEach(button => { button.disabled = false; });
+  } catch {
+    $('#search-status').className = 'load-error';
+    $('#search-status').textContent = 'Questions could not load. Please refresh the page or open the handbook.';
+  }
 }
-$('#topics').innerHTML=topics.map(([title,q])=>`<button data-question="${escape(q)}">${title}</button>`).join('');
-document.addEventListener('click',e=>{const b=e.target.closest('[data-question]');if(b)ask(b.dataset.question)});
-$('#question-form').addEventListener('submit',e=>{e.preventDefault();ask($('#question').value)});
-$('#question').addEventListener('keydown',e=>{if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();$('#question-form').requestSubmit()}});
-$('#ask-nav').onclick=()=>{$('#question').focus();$('#question').scrollIntoView({behavior:'smooth',block:'center'})};
+question.addEventListener('input', () => { if (search) suggest(); });
+question.addEventListener('keydown', event => {
+  if (event.key === 'ArrowDown' && !$('#suggestions').hidden) {
+    const first = $('#suggestion-list button');
+    if (first) { event.preventDefault(); first.focus(); }
+  }
+});
+$('#question-form').addEventListener('submit', event => { event.preventDefault(); answerQuestion(); });
+document.addEventListener('click', event => {
+  const button = event.target.closest('button');
+  if (!button) return;
+  if (button.dataset.id) selectQuestion(button.dataset.id);
+  if (button.dataset.category) browse(button.dataset.category);
+  if (button.dataset.query) { question.value = button.dataset.query; question.focus(); answerQuestion(); }
+  if (button.dataset.action === 'browse') browse();
+  if (button.dataset.action === 'submit-question') openSubmission();
+  if (button.dataset.action === 'back') { suggest(); question.focus(); }
+});
+document.addEventListener('keydown', event => {
+  const option = event.target.closest('.question-option');
+  if (!option || !['ArrowDown', 'ArrowUp', 'Escape'].includes(event.key)) return;
+  event.preventDefault();
+  if (event.key === 'Escape') { question.focus(); return; }
+  const buttons = [...option.closest('ul').querySelectorAll('button')];
+  buttons[(buttons.indexOf(option) + (event.key === 'ArrowDown' ? 1 : buttons.length - 1)) % buttons.length].focus();
+});
+$('#ask-nav').addEventListener('click', () => { question.focus(); question.scrollIntoView({block:'center'}); });
+$('#close-submission').addEventListener('click', () => $('#submission-dialog').close());
+$('#submission-form').addEventListener('submit', async event => {
+  event.preventDefault();
+  const button = $('#send-question');
+  button.disabled = true;
+  button.textContent = 'Sending…';
+  $('#submission-status').textContent = '';
+  try {
+    await submitQuestion(event.currentTarget);
+    $('#submission-form').reset();
+    $('#submission-status').textContent = 'Thank you. Your question was sent for team review. It will not appear publicly unless the team adds a reviewed answer.';
+  } catch (error) {
+    $('#submission-status').textContent = error.name === 'TimeoutError' ? 'The request timed out. We could not confirm delivery. Please try again later.' : error.message || 'Your question was not sent. Please try again later.';
+  } finally { button.disabled = false; button.textContent = 'Send for review ↗'; }
+});
+export const ready = start();
